@@ -181,7 +181,7 @@ These are primarily for example purposes. Some of the composites listed below ar
 
 [^7]: Yet another exceptional case. While this one might be somewhat less noticeable, it is in fact a misrepresentation of the true sounds you make when vocalizing this sound. See the section on the [r-controlled long "o" vowel exception](#r-controlled-long-o-vowel) for an explanation.
 
-[^8]: If you noticed that the "n" in an "ng" or "nk" sound is not the same tip-of-the-tongue regular "n" sound, then you are indeed a keen one. Otherwise, you may be interested to learn just why this is an exception. See the section about the ["ng" vowel exception](#ngnk-vowel) for some explanation.
+[^8]: If you noticed that the "n" in an "ng" or "nk" sound is not the same tip-of-the-tongue regular "n" sound, then you are indeed a keen one. Otherwise, you may be interested to learn just why this is an exception. See the section about the ["ng" vowel exception](#ngnk-consonants) for some explanation.
 
 ### Exceptions
 
@@ -203,7 +203,7 @@ One way to address this would be to use a graphene for that part and then combin
 
 This one is less obvious, but try saying the words "hope" and "port" slowly and see if you can tell that the "o" sound in there is actually slightly different. In "port", the vowel never transitions to that long "u" sound. In fact, a different IPA symbol is even used for the first, more long "o" sound as well, but to my (Standard Canadian accent) ear, they sound equivalent. As such, this r-controlled long "o" vowel sound does not merit its own unique grapheme. Instead it can share with "O", and pretty much everybody should understand.
 
-#### "ng"/"nk" Vowel
+#### "ng"/"nk" Consonants
 
 It can be said that the "ng" as well as "nk" sounds make a completely different mouth shape compared to the solitary "n" sound, and thus inglix should not use the letter "n" in this composite grapheme. Rather than the typical "n" sound, which has the front of the tongue touch the top of the mouth, it is the back of the tongue used in these "ng" and "nk" sounds.
 
@@ -259,3 +259,4 @@ Perhaps it seems obvious, but it is important to note.
 - Dictionary
 - Alphabet reference
 - Write inglix version of this readme file
+- Rename letters (maybe just the uppercase)
