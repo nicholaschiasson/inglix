@@ -80,7 +80,7 @@ As it is the aim of inglix to strike a balance between covering as many pure pho
 
 Basically, inglix opts for slight optimizations, omitting arguably less useful letters which would normally be used to denote implicit or nearly "silent" phonemes. In cases like these, it should be virtually impossible for ambiguity to arise for the majority of English readers (at least, among those who share the Standard Canadian accent).
 
-See the [exceptions]() section for a comprehensive explanation for each case which breaks the "rules" of inglix.
+See the [exceptions](#exceptions) section for a comprehensive explanation of each case which "breaks the rules" of inglix. If we are doing things right, you shouldn't even immediately realize that these are exceptions at all, until we actually point them out.
 
 </details>
 
@@ -184,6 +184,8 @@ These are primarily for example purposes. Some of the composites listed below ar
 [^8]: If you noticed that the "n" in an "ng" or "nk" sound is not the same tip-of-the-tongue regular "n" sound, then you are indeed a keen one. Otherwise, you may be interested to learn just why this is an exception. See the section about the ["ng" vowel exception](#ngnk-vowel) for some explanation.
 
 ### Exceptions
+
+If we are doing things right, you shouldn't even immediately realize that these are exceptions at all, until we actually point them out.
 
 #### Short "a" Vowel (And Others?)
 
