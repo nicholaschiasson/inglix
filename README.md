@@ -64,40 +64,40 @@ If you wish to address the letters by their ingLix names, then you may refer to 
 
 <summary>Click to expand.</summary>
 
-| Letter | Name Spelled in ingLix | Name Spelled in English |
-|-|-|-|
-| `a` | <nglx>`eI`</nglx> | **=** |
-| `b` | <nglx>`bI`</nglx> | **=** |
-| `c` | <nglx>`sI`</nglx> | **=** |
-| `d` | <nglx>`dI`</nglx> | **=** |
-| `e` | <nglx>`I`</nglx> | **=** |
-| `f` | <nglx>`ef`</nglx> | **=** |
-| `g` | <nglx>`jI`</nglx> | **=** |
-| `J` | <nglx>`JI`</nglx> | `zhee`[^1] |
-| `h` | <nglx>`eIc`</nglx> | **=** |
-| `i` | <nglx>`aI`</nglx> | **=** |
-| `I` | <nglx>`mI`</nglx> | `me` |
-| `j` | <nglx>`jeI`</nglx> | **=** |
-| `k` | <nglx>`keI`</nglx> | **=** |
-| `L` | <nglx>`eL`</nglx> | **=** |
-| `m` | <nglx>`em`</nglx> | **=** |
-| `n` | <nglx>`en`</nglx> | **=** |
-| `o` | <nglx>`O`</nglx> | **=** |
-| `O` | <nglx>`nO`</nglx> | `no` |
-| `p` | <nglx>`pI`</nglx> | **=** |
-| `r` | <nglx>`ar`</nglx> | **=** |
-| `s` | <nglx>`es`</nglx> | **=** |
-| `S` | <nglx>`eS`</nglx> | `eth` |
-| `t` | <nglx>`tI`</nglx> | **=** |
-| `T` | <nglx>`TI`</nglx> | `thee` |
-| `u` | <nglx>`yU`</nglx> | **=** |
-| `U` | <nglx>`hU`</nglx> | `who` |
-| `H` | <nglx>`hHm`</nglx> | `hum` |
-| `v` | <nglx>`vI`</nglx> | **=** |
-| `w` | <nglx>`dHbLyU`</nglx> | **=** |
-| `x` | <nglx>`eks`</nglx> | **=** |
-| `y` | <nglx>`waI`</nglx> | **=** |
-| `z` | <nglx>`zI`</nglx> | **=** |
+| # | Letter | Name Spelled in ingLix | Name Spelled in English |
+|-:|-|-|-|
+| 1 | `a` | <nglx>`eI`</nglx> | **=** |
+| 2 | `b` | <nglx>`bI`</nglx> | **=** |
+| 3 | `c` | <nglx>`sI`</nglx> | **=** |
+| 4 | `d` | <nglx>`dI`</nglx> | **=** |
+| 5 | `e` | <nglx>`I`</nglx> | **=** |
+| 6 | `f` | <nglx>`ef`</nglx> | **=** |
+| 7 | `g` | <nglx>`jI`</nglx> | **=** |
+| 8 | `J` | <nglx>`JI`</nglx> | `zhee`[^1] |
+| 9 | `h` | <nglx>`eIc`</nglx> | **=** |
+| 10 | `i` | <nglx>`aI`</nglx> | **=** |
+| 11 | `I` | <nglx>`mI`</nglx> | `me` |
+| 12 | `j` | <nglx>`jeI`</nglx> | **=** |
+| 13 | `k` | <nglx>`keI`</nglx> | **=** |
+| 14 | `L` | <nglx>`eL`</nglx> | **=** |
+| 15 | `m` | <nglx>`em`</nglx> | **=** |
+| 16 | `n` | <nglx>`en`</nglx> | **=** |
+| 17 | `o` | <nglx>`O`</nglx> | **=** |
+| 18 | `O` | <nglx>`nO`</nglx> | `no` |
+| 19 | `p` | <nglx>`pI`</nglx> | **=** |
+| 20 | `r` | <nglx>`ar`</nglx> | **=** |
+| 21 | `s` | <nglx>`es`</nglx> | **=** |
+| 22 | `S` | <nglx>`eS`</nglx> | `eth` |
+| 23 | `t` | <nglx>`tI`</nglx> | **=** |
+| 24 | `T` | <nglx>`TI`</nglx> | `thee` |
+| 25 | `u` | <nglx>`yU`</nglx> | **=** |
+| 26 | `U` | <nglx>`hU`</nglx> | `who` |
+| 27 | `H` | <nglx>`hHm`</nglx> | `hum` |
+| 28 | `v` | <nglx>`vI`</nglx> | **=** |
+| 29 | `w` | <nglx>`dHbLyU`</nglx> | **=** |
+| 30 | `x` | <nglx>`eks`</nglx> | **=** |
+| 31 | `y` | <nglx>`waI`</nglx> | **=** |
+| 32 | `z` | <nglx>`zI`</nglx> | **=** |
 
 [^1]: Like the name of the letter "G", but voiced. Really soften that "G" sound. It's the same way the French pronounce the name of their own letter "J".
 
@@ -302,7 +302,7 @@ The ingLix writing system is made for writing English. Therefore, it works basic
 
 In ingLix, you do not capitalize the first letter of a sentence or even those of proper nouns! Every version of a letter, that is to say uppercase and lowercase, is reserved intentionally to express words phonetically. This allows for ingLix to be much, much simpler than English, and even strip down the alphabet a good deal.
 
-Perhaps the best way to get started reading and writing ingLix is to not think of letters in terms of uppercase and lowercase anymore at all, but rather as a set of unique letters each with a resulting sound (some of which happen to only be accessible via a letter on the keyboard in tandem with the shift key :sweat_smile:)
+Perhaps the best way to get started reading and writing ingLix is to not think of letters in terms of uppercase and lowercase anymore at all, but rather as a set of unique letters each with a resulting sound (some of which happen to only be accessible via a letter on the keyboard in tandem with the shift key :sweat_smile:).
 
 ### Proper Nouns
 
@@ -332,11 +332,11 @@ Perhaps an obvious point, but significant nonetheless.
 
 Given that ingLix changes the semantics of uppercase and lowercase letter usage, using acronyms becomes a challenge.
 
-The current method to address this (subject to change) is to enclose an acronym in square brackets, and like proper nouns, either use the English acronym in all capitals, or the ingLix acronym with proper ingLix letters.
+The current method to address this (subject to change) is to enclose an acronym in square brackets, and like proper nouns, either use the English acronym in all capitals, the ingLix acronym with proper ingLix letters, or simply spell the pronunciation of the acronym in ingLix if it is normally read that way rather than letter by letter.
 
-As an example, one could denote the National Aeronautics and Space Administration (NASA) as "\[NASA\]" or "\[NeSa\]".
+As an example, one could denote the National Aeronautics and Space Administration (NASA) as "\[NASA\]", or "<nglx>\[nesa\]</nglx>" (since "Aeronautics" would be spelled "<nglx>erOnotiks</nglx>"), or "<nglx>\[nasa\]</nglx>".
 
-It is not ideal to deviate from how English uses punctuation for special circumstances, so proposals for better ideas are fully welcome.
+This is quite awkward and it is not ideal to deviate from how English uses punctuation just for special circumstances, so proposals for better ideas are fully welcome.
 
 ## To Do
 
