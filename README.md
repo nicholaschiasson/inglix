@@ -1,4 +1,4 @@
-# inglix <sub>/ ˈɪŋ glɪʃ /</sub>
+# ingLix <sub>/ ˈɪŋ glɪʃ /</sub>
 
 English done right.
 
@@ -20,7 +20,7 @@ I could keep going though. What about other words like "gauge"? Why is it spelle
 
 What about all of these "O-U-G-H" sounds that are all _over_ the place? I mean seriously: "rough", "though", "through", "cough", "drought"! Enough is enough (:wink:)! That's five different pronunciations for the same four letter combination! This is only the tip of the iceberg though. English is riddled with weird spellings. The ones I've mentioned so far have been quite tame if I'm being honest.
 
-Oh and maybe just as the cherry on top for that rant, even my own name, "Nicholas", is spelled ambiguously. I work with a lot of French speakers. The name also exists commonly among the French population, obviously, but they don't usually spell it with that "h" in there, so it's more often "Nicolas". And that's how people spell my name in DMs even though they can see my name written out right in front of them already _IN THE SOFTWARE_. If I'm being honest though, I don't usually go by "Nicholas". I usually go by "Nick"... :neutral_face: "_Nick_"... "_*NICK*_"! A "k"?! You're going to change the "h" to a "k" for the nickname?! So now, when people write to me, the French speakers spell my name "Nic", the English speakers spell my name "Nick", and the rest of the understandably confused population spells my name "Nich"! My own name is a mess! Of course, I'm exaggerating my frustration here. I don't really care at all. In fact, it's actually just kind of funny to me.
+Oh and maybe just as the cherry on top for that rant, even my own name, "Nicholas", is spelled ambiguously. I work with a lot of French speakers. The name also exists commonly among the French population, obviously, but they don't usually spell it with that "h" in there, so it's more often "Nicolas". And that's how people spell my name in DMs even though they can see my name written out right in front of them already _IN THE SOFTWARE_. If I'm being honest though, I don't usually go by "Nicholas". I usually go by "Nick"... :neutral_face: "_Nick_"... "***NICK***"?! A "k"?! You're going to change the "h" to a "k" for the nickname?! So now, when people write to me, the French speakers spell my name "Nic", the English speakers spell my name "Nick", and the rest of the understandably confused population spells my name "Nich"! My own name is a mess! Of course, I'm exaggerating my frustration here. I don't really care at all. In fact, it's actually just kind of funny to me.
 
 Of course, I understand that the origin story of the modern written English language is hairy and complex, and I understand that things will never really change. We need our systems to allow us to preserve our history. We need to keep as much information as accessible as possible. What that means is that we're stuck with the broken system, and probably for a long, long time. I have no real problem with that. It's maybe difficult to learn English, but in the end it is trivial. My complaints are real, but exaggerated.
 
@@ -36,7 +36,7 @@ So if you read through the first sentence of this preamble and thought to yourse
 
 ## Alphabet
 
-### English
+### :no_good: English
 
 26 letters. 2 Versions of each...
 
@@ -45,26 +45,75 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 a b c d e f g h i j k l m n o p q r s t u v w x y z
 ```
 
-### inglix
+### :ok_person: ingLix
 
-Only 33 letters total, carefully selected to represent all the sounds of English!
+Only 32 letters total, carefully selected to represent all of the relevant sounds of English!
 
 ```
-                I J         O       S T U V     Y
-a b c d e f g h i j k l m n o p   r s t u v w x y z
+              H I J   L     O       S T U
+a b c d e f g h i j k   m n o p   r s t u v w x y z
 ```
+
+In ingLix, the concept of uppercase and lowercase letters being alternate versions of one another is completely abolished. Instead, each letter is unique in the sound it is associated with. For example "t" and "T" do not make the same sound. We no longer use the notion of lowercase "t" and uppercase "T". In ingLix, they are each their own letter. Hmph, good for them, right? How empowering. :smiling_face_with_tear:
+
+Given this notion of identity, it follows that some letters in the ingLix alphabet will need to be granted new names so we don't have to refer to them as "uppercase this" and "lowercase that". Of course, this is just a convenience. Since it's one more thing to remember, feel free to do as you please and call the letters whatever you want.
+
+If you wish to address the letters by their ingLix names, then you may refer to the list below. Most of them will have the same names we already use. The rest will have a name spelled out both in ingLix (which you probably won't understand until having read the section on [ingLix graphemes](#graphemes) below) and with an English approximation (I'll try my best with those but honestly you're just going to have to _sound it out_).
+
+<details>
+
+<summary>Click to expand.</summary>
+
+| Letter | Name Spelled in ingLix | Name Spelled in English |
+|-|-|-|
+| `a` | <nglx>`eI`</nglx> | **=** |
+| `b` | <nglx>`bI`</nglx> | **=** |
+| `c` | <nglx>`sI`</nglx> | **=** |
+| `d` | <nglx>`dI`</nglx> | **=** |
+| `e` | <nglx>`I`</nglx> | **=** |
+| `f` | <nglx>`ef`</nglx> | **=** |
+| `g` | <nglx>`jI`</nglx> | **=** |
+| `J` | <nglx>`JI`</nglx> | `zhee`[^1] |
+| `h` | <nglx>`eIc`</nglx> | **=** |
+| `i` | <nglx>`aI`</nglx> | **=** |
+| `I` | <nglx>`mI`</nglx> | `me` |
+| `j` | <nglx>`jeI`</nglx> | **=** |
+| `k` | <nglx>`keI`</nglx> | **=** |
+| `L` | <nglx>`eL`</nglx> | **=** |
+| `m` | <nglx>`em`</nglx> | **=** |
+| `n` | <nglx>`en`</nglx> | **=** |
+| `o` | <nglx>`O`</nglx> | **=** |
+| `O` | <nglx>`nO`</nglx> | `no` |
+| `p` | <nglx>`pI`</nglx> | **=** |
+| `r` | <nglx>`ar`</nglx> | **=** |
+| `s` | <nglx>`es`</nglx> | **=** |
+| `S` | <nglx>`eS`</nglx> | `eth` |
+| `t` | <nglx>`tI`</nglx> | **=** |
+| `T` | <nglx>`TI`</nglx> | `thee` |
+| `u` | <nglx>`yU`</nglx> | **=** |
+| `U` | <nglx>`hU`</nglx> | `who` |
+| `H` | <nglx>`hHm`</nglx> | `hum` |
+| `v` | <nglx>`vI`</nglx> | **=** |
+| `w` | <nglx>`dHbLyU`</nglx> | **=** |
+| `x` | <nglx>`eks`</nglx> | **=** |
+| `y` | <nglx>`waI`</nglx> | **=** |
+| `z` | <nglx>`zI`</nglx> | **=** |
+
+[^1]: Like the name of the letter "G", but voiced. Really soften that "G" sound. It's the same way the French pronounce the name of their own letter "J".
+
+</details>
 
 ## Graphemes
 
 Graphemes are the written representations of the units of sound we can make when speaking, also known as phonemes. In other words, a grapheme is the letter(s) we use to represent a sound.
 
-We will divide the list of English phonemes into two sets, [pure](#pure-graphemes) and [composite](#composite-graphemes), and assign inglix graphemes to those.
+We will divide the list of English phonemes into two sets, [pure](#pure-graphemes) and [composite](#composite-graphemes), and assign ingLix graphemes to those.
 
 We will consider a pure phoneme to be an atomic sound in which the mouth shape remains relatively unchanged or steady for the duration of the sound.
 
 Logically and as the name implies, we will consider composite phonemes to be sounds composed of more than one pure phoneme.
 
-This distinction is useful since inglix aims to only address all pure phonemes, mapping a single letter to each possible pure phoneme. Conversely, the English writing system is inconsistent and commonly represents composite phonemes using single letters (case in point, the word "I"). The composite phonemes are listed to provide examples of how they are to be represented in inglix.
+This distinction is useful since ingLix aims to only address all pure phonemes, mapping a single letter to each possible pure phoneme. Conversely, the English writing system is inconsistent and commonly represents composite phonemes using single letters (case in point, the word "I"). The composite phonemes are listed to provide examples of how they are to be represented in ingLix.
 
 ### Intuition Over Reason
 
@@ -72,15 +121,15 @@ This distinction is useful since inglix aims to only address all pure phonemes, 
 
 <summary>Click to expand.</summary>
 
-You will remark when reading the tables below that there exist some exceptional cases in inglix, some cases contradicting the rules set up above. For example the long "o" vowel sound equivalent, or the "ng" sound, to name a couple.
+You will remark when reading the tables below that there exist some exceptional cases in ingLix, some cases contradicting the rules set up above. For example the long "o" vowel sound equivalent, or the "ng" sound, to name a couple. We will explain later how these cases and a few others impose some oddities into ingLix.
 
 You may be wondering now if this doesn't go against the primary objective of the writing system. You are right to wonder that.
 
-As it is the aim of inglix to strike a balance between covering as many pure phonemes as possible with single letters and remaining as straightforward and intuitive as possible to anybody with a knowledge of how English words can sound, cases such as these lean in favour of intuition, not _perfection_.
+As it is the aim of ingLix to strike a balance between covering as many pure phonemes as possible with single letters and remaining as straightforward and intuitive as possible to anybody with a knowledge of how English words can sound, cases such as these lean in favour of intuition, not _perfection_.
 
-Basically, inglix opts for slight optimizations, omitting arguably less useful letters which would normally be used to denote implicit or nearly "silent" phonemes. In cases like these, it should be virtually impossible for ambiguity to arise for the majority of English readers (at least, among those who share the Standard Canadian accent).
+Basically, ingLix opts for slight optimizations, omitting arguably less useful letters which would normally be used to denote implicit or nearly "silent" phonemes. In cases like these, it should be virtually impossible for ambiguity to arise for the majority of English readers (at least, among those who share the Standard Canadian accent).
 
-See the [exceptions](#exceptions) section for a comprehensive explanation of each case which "breaks the rules" of inglix. If we are doing things right, you shouldn't even immediately realize that these are exceptions at all, until we actually point them out.
+See the [exceptions](#exceptions) section for a comprehensive explanation of each case which "breaks the rules" of ingLix. If we are doing things right, you shouldn't even immediately realize that these are exceptions at all, until we actually point them out.
 
 </details>
 
@@ -90,98 +139,120 @@ See the [exceptions](#exceptions) section for a comprehensive explanation of eac
 
 ##### Short Vowels
 
-| IPA Symbol | Common English Grapheme(s) | inglix Grapheme | English Example | inglix egzampl |
+| [IPA](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet) Grapheme(s) | Common English Grapheme(s) | ingLix Grapheme | English Example | ingLix Example |
 |-|-|-|-|-|
-| æ | a | a | cat, bag, fan[^1] | kat, bag, fan |
-| e | e | e | leg | leg |
-| ɪ | i | i | sit | sit |
-| ɒ | o | o | top | top |
-| ʊ | oo, u, o, ou | u | book, put, wolf, would | buk, put, wulf, wud |
-| ʌ | u | V | rub | rVb |
+| æ, ɑ[^2] | `a` | <nglx>`a`</nglx> | `cat`, `bag`, `fan`[^3] | <nglx>`kat`</nglx>, <nglx>`bag`</nglx>, <nglx>`fan`</nglx> |
+| e, ɛ | `e` | <nglx>`e`</nglx> | `leg` | <nglx>`Leg`</nglx> |
+| ɪ | `i` | <nglx>`i`</nglx> | `sit` | <nglx>`sit`</nglx> |
+| ɒ, ɔ | `o`, `a` | <nglx>`o`</nglx> | `top`, `tall` | <nglx>`top`</nglx>, <nglx>`toL`</nglx> |
+| ʊ | `oo`, `u`, `o`, `ou` | <nglx>`u`</nglx> | `book`, `put`, `wolf`, `would` | <nglx>`buk`</nglx>, <nglx>`put`</nglx>, <nglx>`wuLf`</nglx>, <nglx>`wud`</nglx> |
+| ʌ | `u` | <nglx>`H`</nglx> | `rub` | `rHb` |
 
-[^1]: Wondering why you pronounce these three words differently even though they are supposedly the same sound? See the section about the [short "a" vowel sound exception](#short-a-vowel-and-others) for details about that. In summary, let your accent shine. Consider this your final taste of freedom of expression before inglix takes it all away...
+[^2]: Some phonetic symbols represent sounds that are very similar. In such cases we will simply list them all together.
+
+[^3]: Wondering why you pronounce these three words differently even though they are supposedly the same sound? See the section about the [short "a" vowel sound exception](#short-a-vowel-and-others) for details about that. In summary, let your accent shine. Consider this your final taste of freedom of expression before ingLix takes it all away...
 
 ##### Long Vowels
 
-It is commonly considered that there are 5 long vowels but the "ie"/"igh" sound is very clearly a composition of two different vowels. Thus it is omitted from the list of [pure](#pure-graphemes) phonemes and instead listed as a [composite](#composite-graphemes) phoneme.
+It is commonly considered that there are 5 long vowels but the "ay" as well as the "ie"/"igh" sounds are very clearly compositions of two different vowels. As such, those are omitted from the list of [pure](#pure-graphemes) phonemes and instead listed as a [composite](#composite-graphemes) phonemes further below.
 
-| IPA Symbol | Common English Grapheme(s) | inglix Grapheme | English Example | inglix egzampl |
+| [IPA](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet) Grapheme(s) | Common English Grapheme(s) | ingLix Grapheme | English Example | ingLix Example |
 |-|-|-|-|-|
-| i | ee, ea | I | bee, beat | bI, bIt |
-| ou | oe, ow | O[^2] | toe, flow | tO, flO |
-| u | oo, ue | U | moon, cue | mUn, kIU |
+| i | `ee`, `ea` | <nglx>`I`</nglx> | `bee`, `beat` | <nglx>`bI`</nglx>, <nglx>`bIt`</nglx> |
+| ou, oʊ | `oe`, `ow` | <nglx>`O`</nglx>[^4] | `toe`, `flow` | <nglx>`tO`</nglx>, <nglx>`fLO`</nglx> |
+| u | `oo`, `ue` | <nglx>`U`</nglx> | `moon`, `cue` | <nglx>`mUn`</nglx>, <nglx>`kIU`</nglx> |
 
-[^2]: This is actually a composite phoneme in disguise. To understand why it is listed here, see the section about the [long "o" vowel sound exception](#long-o-vowel).
+[^4]: This is actually a composite phoneme in disguise. To understand why it is listed here, see the section about the [long "o" vowel sound exception](#long-o-vowel).
 
 ##### R-Controlled Vowels
 
-These are special case vowel sounds that are only made in English when followed immediately by the letter "r".
+There exist special case vowel sounds that only manifest in English when followed immediately by the letter "r".
 
-As with long vowels, there are commonly considered more r-controlled vowels than inglix will bother with. In inglix "ar" and "or" sounds are trivial and can be represented using composition (see the [composite graphemes](#composite-graphemes) below).
+In ingLix no additional characters/symbols are spent to express these since it is likely not beneficial to do so. Instead, ingLix has chosen some best-fit characters to represent these cases. The chosen vowels are similar enough in sound to what is intended so that the sound to make comes obvious to any reader. There is an argument to be made that due to the simple fact that these vowels are terminated by an "r" consonant, the mouth is almost force into the right shape to make the right sound (so long as the speaker is using the same "r" sound as one with the Standard Canadian English accent... rolled/trilled "r"s are unaccounted for, sorry).
 
-| IPA Symbol | Common English Grapheme(s) | inglix Grapheme | English Example | inglix egzampl |
-|-|-|-|-|-|
-| ɜr | er, ir, ur | yr | her, bird, hurt | hyr, byrd, hyrt |
+For the sake of structure, these vowel-plus-"r" combinations will be appropriately identified in the section about [composite graphemes](#composite-graphemes).
 
 #### Consonants
 
-| IPA Symbol | Common English Grapheme(s) | inglix Grapheme | English Example | inglix egzampl |
+| [IPA](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet) Grapheme(s) | Common English Grapheme(s) | ingLix Grapheme | English Example | ingLix Example |
 |-|-|-|-|-|
-| b | b | b | bet | bet |
-| tʃ | ch | c | chain | ceIn |
-| d | d | d | dip | dip |
-| f | f | f | fan | fan |
-| ɡ | g | g | gap | gap |
-| ʒ | ge, z, si, j | J | beige, azure, vision | beIJ, aJyr, viJin |
-| h | h | h | hat | hat |
-| dʒ | j | j | Jane | jeIn |
-| k | k, c | k | cap | kap |
-| l | l | l | leg | leg
-| m | m | m | met | met |
-| n | n | n | net | net |
-| p | p | p | pet | pet |
-| r | r | r | rat | rat |
-| s | s | s | sue | sU |
-| ʃ | sh | x | ship | xip |
-| t | t | t | tip | tip |
-| θ | th | S[^3] | thin | Sin |
-| ð | th | T | this | Tis |
-| v | v | v | van | van |
-| w | w | w[^4] | wet | wet |
-| j | y | Y[^5] | yak | Yak |
-| z | z | z | zoo | zU |
+| b | `b` | <nglx>`b`</nglx> | `bet` | <nglx>`bet`</nglx> |
+| tʃ | `ch` | <nglx>`c`</nglx> | `chain` | <nglx>`ceIn`</nglx> |
+| d | `d` | <nglx>`d`</nglx> | `dip` | <nglx>`dip`</nglx> |
+| f | `f` | <nglx>`f`</nglx> | `fan` | <nglx>`fan`</nglx> |
+| ɡ | `g` | <nglx>`g`</nglx> | `gap` | <nglx>`gap`</nglx> |
+| ʒ | `ge`, `z`, `si`, `j` | <nglx>`J`</nglx> | `beige`, `azure`, `vision` | <nglx>`beIJ`</nglx>, <nglx>`aJur`</nglx>, <nglx>`viJin`</nglx> |
+| h | `h` | <nglx>`h`</nglx> | `hat` | <nglx>`hat`</nglx> |
+| dʒ | `j` | <nglx>`j`</nglx> | `Jane` | <nglx>`jeIn`</nglx> |
+| k | `k`, `c` | <nglx>`k`</nglx> | `cap` | <nglx>`kap`</nglx> |
+| l | `l` | <nglx>`L`</nglx>[^5] | `leg` | <nglx>`Leg`</nglx> |
+| m | `m` | <nglx>`m`</nglx> | `met` | <nglx>`met`</nglx> |
+| n | `n` | <nglx>`n`</nglx> | `net` | <nglx>`net`</nglx> |
+| p | `p` | <nglx>`p`</nglx> | `pet` | <nglx>`pet`</nglx> |
+| r | `r` | <nglx>`r`</nglx> | `rat` | <nglx>`rat`</nglx> |
+| s | `s` | <nglx>`s`</nglx> | `sue` | <nglx>`sU`</nglx> |
+| t | `t` | <nglx>`t`</nglx> | `tip` | <nglx>`tip`</nglx> |
+| θ | `th` | <nglx>`S`</nglx>[^6] | `thin` | <nglx>`Sin`</nglx> |
+| ð | `th` | <nglx>`T`</nglx> | `this` | <nglx>`Tis`</nglx> |
+| v | `v` | <nglx>`v`</nglx> | `van` | <nglx>`van`</nglx> |
+| w | `w` | <nglx>`w`</nglx>[^7] | `wet`, `Oswald` | <nglx>`wet`</nglx>, <nglx>`ozwoLd`</nglx> |
+| ʃ | `sh` | <nglx>`x`</nglx> | `ship` | <nglx>`xip`</nglx> |
+| j | `y` | <nglx>`y`</nglx>[^8] | `yak`, `vineyard` | <nglx>`yak`</nglx>, <nglx>`vinyurd`</nglx> |
+| z | `z` | <nglx>`z`</nglx> | `zoo` | <nglx>`zU`</nglx> |
 
-[^3]: This may seem to be a bizarre choice of grapheme for the unvoiced "th" sound. The fact is that it was chosen because a stereotypical "s" lisp tends to make this sound also. So why not use capital "S" to represent it? It's almost too perfect!
+[^5]: The "L" is the only consonant that appears in the ingLix alphabet in its uppercase form and not in its lowercase form. The reason is simply to remove ambiguity between the letters "l" and the long "i" vowel, since that is expressed in ingLix by uppercase "I". With some fonts, lowercase "l" may look very similar to uppercase "I".
 
-[^4]: There is a case to be made against "w" being included in inglix. Instead, it could have probably simply been replaced by the inglix "U". This would be similar to how the French language uses "ou" in place of the "w" sound (for native French words). Given that, "w" is somewhat elegant, instantly recognizable, and intuitive in its own right. Using a "U" in its place might confuse readers into emphasizing the "U" sound, making some words sound awkward. Lowercase "w" can stay.
+[^6]: This may seem to be a bizarre choice of grapheme for the unvoiced "th" sound. The fact is that it was chosen simply because a stereotypical "s" lisp tends to make this sound also. So why not use "<nglx>S</nglx>" to represent it (different casing since the "s" sound is already taken by "<nglx>s</nglx>")? It's almost too perfect!
 
-[^5]: Like "w", the same goes for the "y" sound. This could have probably been replaced by the inglix "I" but it would likely serve more to confuse readers and also force over-emphasis in some places. Since "y" is already reserved for the "er" sound via "yr", the uppercase version will have to suffice.
+[^7]: The "<nglx>w</nglx>" is a special case to be included in ingLix. Read more about the reason for including it and its proper usage in the section below dedicated to [the "w" consonant](#the-w-consonant).
+
+[^8]: The "<nglx>y</nglx>" is special for similar reasons to "<nglx>w</nglx>". See the section about [the "y" consonant](#the-y-consonant) for a brief explanation.
+
+##### The "w" consonant
+
+There is a case to be made against "<nglx>w</nglx>" being included in ingLix. Instead, it could have probably simply been replaced by the ingLix "<nglx>U</nglx>". This would be similar to how the French language uses "ou" in place of the "w" sound (for native French words).
+
+In spite of that, "<nglx>w</nglx>" is somewhat elegant, instantly recognizable, and intuitive in its own right. Using a "<nglx>U</nglx>" in its place might confuse readers into emphasizing the long "u" vowel sound, making some words sound awkward.
+
+Furthermore, the use of a "<nglx>w</nglx>" removes ambiguity in cases where the "w" follows a consonant sound in the middle of a word. It acts almost as a pause. Take, for example, the name "Oswald". In ingLix, we would spell this "<nglx>ozwoLd</nglx>" to accomplish the same intended pronunciation. If we were to spell it "<nglx>ozUoLd</nglx>", most would likely read this with the "z" sound leading into the long "u" vowel sound, making it sound like "ozu wald" or maybe even worsley partitioned, like "ozu ald".
+
+As such, "<nglx>w</nglx>" can for now.
+
+The "<nglx>w</nglx>" should only be used at the beginning of a word or as in the case above, when following a consonant sound in the middle of a word where that separation between the previous consonant and the "w" is important. In all other cases one might think to use a "<nglx>w</nglx>", use a "<nglx>U</nglx>" instead.
+
+##### The "y" consonant
+
+The discussion surrounding [the "w" consonant](#the-w-consonant) is basically exactly applicable to the "y" consonant. It too could probably be sufficiently replaced by another character, the ingLix "<nglx>I</nglx>". However its inclusion helps to clear up some potential confusion and ambiguity, preventing the wrong emphasis in some places.
+
+Like "<nglx>w</nglx>", "<nglx>y</nglx>" should only be used at the beginning of a word or when following a consonant sound in the middle of a word where the separation between the two consonant sounds is to be emphasized. An example of this could be the word "vineyward". Note here that the "y" doesn't actually follow a consonant, but based on pronunciation, it does follow a consonant _sound_. In ingLix, this word would be spelled "<nglx>vinyurd</nglx>"
 
 ### Composite Graphemes
 
 These are primarily for example purposes. Some of the composites listed below are self-evident and only listed due to the fact that they are commonly treated as unique phonemes but in practice sound indistinguishable from their parts. However, there are a few items in the list below which are perhaps good to note, such as the "ie"/"igh" long vowel sound and the "ng" sound.
 
-| IPA Symbol | Common English Grapheme(s) | inglix Grapheme | English Example | inglix egzampl |
+| [IPA](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet) Grapheme(s) | Common English Grapheme(s) | ingLix Grapheme | English Example | ingLix Example |
 |-|-|-|-|-|
-| aɪ | ie, igh | aI | pie, high | paI, haI |
-| eɪ | ai, ay | eI | paid, tray | peId, creI |
-| ɑr | ar | or[^6] | car | kor |
-| ɔr | or | Or[^7] | cork | kOrk |
-| au | ow, ou | aU | cow, out | kaU, aUt |
-| ɔɪ | oy, oi | OI | boy, void | bOI, vOId |
-| ɪər | eer, ear | Ir | deer, near | dIr nIr |
-| er | air, ere | er | hair, there | her, Ter |
-| ur | our | Ur | tour | tUr |
-| ŋɡ | ng | ng[^8] | sing, tongue | sing, tung |
-| ŋk | nk | nk | pink | pink |
-| ks | x | ks | box | boks |
-| kw | qu | kw | quit | kwit |
+| aɪ | `ie`, `igh` | <nglx>`aI`</nglx> | `pie`, `high` | <nglx>`paI`</nglx>, <nglx>`haI`</nglx> |
+| eɪ | `ai`, `ay` | <nglx>`eI`</nglx> | `paid`, `tray` | <nglx>`peId`</nglx>, <nglx>`creI`</nglx> |
+| ɜr, ər | `er`, `ir`, `ur` | <nglx>`ur`</nglx> | `her`, `bird`, `hurt` | <nglx>`hur`</nglx>, <nglx>`burd`</nglx>, <nglx>`hurt`</nglx> |
+| ɑr | `ar` | <nglx>`ar`</nglx>[^9] | `car` | <nglx>`kar`</nglx> |
+| ɔr | `or` | <nglx>`Or`</nglx>[^10] | `cork` | <nglx>`kOrk`</nglx> |
+| au | `ow`, `ou` | <nglx>`aU`</nglx> | `cow`, `out` | <nglx>`kaU`</nglx>, <nglx>`aUt`</nglx> |
+| ɔɪ | `oy`, `oi` | <nglx>`OI`</nglx> | `boy`, `void` | <nglx>`bOI`</nglx>, <nglx>`vOId`</nglx> |
+| ɪər | `eer`, `ear` | <nglx>`Ir`</nglx> | `deer`, `near` | <nglx>`dIr`</nglx>, <nglx>`nIr`</nglx> |
+| er | `air`, `ere` | <nglx>`er`</nglx> | `hair`, `there` | <nglx>`her`</nglx>, <nglx>`Ter`</nglx> |
+| ur | `our` | <nglx>`Ur`</nglx> | `tour` | <nglx>`tUr`</nglx> |
+| ŋɡ | `ng` | <nglx>`ng`</nglx>[^11] | `sing`, `tongue` | <nglx>`sing`</nglx>, <nglx>`tHng`</nglx> |
+| ŋk | `nk` | <nglx>`nk`</nglx> | `pink` | <nglx>`pink`</nglx> |
+| ks | `x` | <nglx>`ks`</nglx> | `box` | <nglx>`boks`</nglx> |
+| kw | `qu` | <nglx>`kU`</nglx> | `quit` | <nglx>`kUit`</nglx> |
+| aɪ ɪŋ | `ying` | <nglx>`aIing`</nglx> | `trying` | <nglx>`craIing`</nglx> |
 
-[^6]: This specific composite phoneme is actually a tricky case and still up for debate for its representation in inglix. Examples "car" and "start" would be spelled "kor" and "stort" in the current solution... But this might confuse many. The "o" graphene seems to more closely fit the sound (it's true, say "car" slowly and then say "top" slowly and see how similar they are in sound), but in reality, it is technically a different phoneme. This one may change. Perhaps it will be placed up in the [R-Controlled Vowels](#r-controlled-vowels) section (where it actually belongs!).
+[^9]: This specific composite phoneme is actually a tricky case and still up for debate for its representation in ingLix. See the section on the [r-controlled short "a" vowel exception](#r-controlled-short-a-vowel) to understand the choice here.
 
-[^7]: Yet another exceptional case. While this one might be somewhat less noticeable, it is in fact a misrepresentation of the true sounds you make when vocalizing this sound. See the section on the [r-controlled long "o" vowel exception](#r-controlled-long-o-vowel) for an explanation.
+[^10]: Yet another exceptional case. While this one might be somewhat less noticeable, it is in fact a misrepresentation of the true sounds you make when vocalizing this sound. See the section on the [r-controlled long "o" vowel exception](#r-controlled-long-o-vowel) for an explanation.
 
-[^8]: If you noticed that the "n" in an "ng" or "nk" sound is not the same tip-of-the-tongue regular "n" sound, then you are indeed a keen one. Otherwise, you may be interested to learn just why this is an exception. See the section about the ["ng" vowel exception](#ngnk-consonants) for some explanation.
+[^11]: If you noticed that the "n" in an "ng" or "nk" sound is not the same tip-of-the-tongue regular "n" sound, then you are indeed a keen one. Otherwise, you may be interested to learn just why this is an exception. See the section about the ["ng" vowel exception](#ngnk-consonants) for some explanation.
 
 ### Exceptions
 
@@ -189,51 +260,55 @@ If we are doing things right, you shouldn't even immediately realize that these 
 
 #### Short "a" Vowel (And Others?)
 
-Depending on a speaker's accent, the words "cat", "bag", and "fan", as well as many other words with the supposed short "a" vowel sound, may all have slightly different sounds. The inglix system will not attempt to address these differences, allowing them to exist to support expression of different accents.
+Depending on a speaker's accent, the words "cat", "bag", and "fan", as well as many other words with the supposed short "a" vowel sound, may all have slightly different sounds. The ingLix system will not attempt to address these differences, primarily due to a lack of letters in the alphabet to form a sensible solution, but also to support expression of different accents.
 
-You may find other peculiarities like this, perhaps for the other vowel sounds, but according to the Standard Canadian accent, this is pretty much the only one of note.
+You may find other peculiarities like this, perhaps for the other vowel sounds, but according to the Standard Canadian accent, this is pretty much the only one of significant note.
 
 #### Long "o" Vowel
 
-Technically, this is a composite phoneme, but inglix will consider it pure for efficiency's sake. When vocalizing this sound, during the first part, the mouth shape starts in a unique position (which will not be explicitly identified by an inglix grapheme) before transitioning to the shape the mouth makes for the long "u" vowel sound. Try it yourself and see if you can notice how the mouth changes when pronouncing this sound. It is this first position that makes things tricky, because it is (probably) only ever made for this specific combination sound, that is to say before shifting directly to the long "u" vowel sound. It is as if English was built to make it uncomfortable or rare for that sound to ever exist without being followed by the long "u" vowel sound.
+Technically, this is a composite phoneme, but ingLix will consider it pure for efficiency's sake. When vocalizing this sound, during the first part, the mouth shape starts in a unique position (which will not be explicitly identified by an ingLix grapheme) before transitioning to the shape the mouth makes for the long "u" vowel sound. Try it yourself and see if you can notice how the mouth changes when pronouncing this sound. It is this first position that makes things tricky, because it is (probably) only ever made for this specific combination sound, that is to say before shifting directly to the long "u" vowel sound. It is as if English was built to make it uncomfortable or rare for that sound to ever exist without being followed by the long "u" vowel sound.
 
-One way to address this would be to use a graphene for that part and then combine it with the long "u" vowel graphene. We could do something like "OU". However, since, as was mentioned, this "O" only ever comes before "U" anyway, maybe it's preferable to make an exception. Toss the "U" and use the "O" to represent this specific composite phoneme, even though in general that goes against the rules which were established above: one letter maps to one pure phoneme.
+One way to address this would be to use a graphene for that first part and then combine it with the long "u" vowel graphene. We could do something like "OU". However, since, as was mentioned, this "O" only ever comes before "U" anyway, maybe it's preferable to make an exception. Toss the "U" and use the "<nglx>O</nglx>" to represent this specific composite phoneme, even though in general that goes against the rules which were established above: one letter maps to one pure phoneme.
+
+#### R-Controlled Short "a" Vowel
+
+Examples "car" and "start" would be spelled "<nglx>kar</nglx>" and "<nglx>start</nglx>" in the current solution... While this seems more obvious because it is similar to English, it doesn't seem to be consistent with the actual sound being made. The "<nglx>o</nglx>" graphene seems to more closely fit the sound (it's true, say "car" slowly and then say "top" slowly and see how similar they are in sound), but in reality, it is technically a different phoneme. The choice is tough for this one, but for now we're sticking with "<nglx>a</nglx>" because it will likely be easiest to understand for everyone. This one may change in the future.
 
 #### R-Controlled Long "o" Vowel
 
-This one is less obvious, but try saying the words "hope" and "port" slowly and see if you can tell that the "o" sound in there is actually slightly different. In "port", the vowel never transitions to that long "u" sound. In fact, a different IPA symbol is even used for the first, more long "o" sound as well, but to my (Standard Canadian accent) ear, they sound equivalent. As such, this r-controlled long "o" vowel sound does not merit its own unique grapheme. Instead it can share with "O", and pretty much everybody should understand.
+This one is less obvious, but try saying the words "hope" and "port" slowly and see if you can tell that the "o" sound in there is actually slightly different. In "port", the vowel never transitions to that long "u" sound. In fact, a different IPA symbol is even used for the first, more long "o" sound as well, but to my (Standard Canadian accent) ear, they sound equivalent. As such, this r-controlled long "o" vowel sound does not merit its own unique grapheme. Instead it can share with "<nglx>O</nglx>", and pretty much everybody should understand.
 
 #### "ng"/"nk" Consonants
 
-It can be said that the "ng" as well as "nk" sounds make a completely different mouth shape compared to the solitary "n" sound, and thus inglix should not use the letter "n" in this composite grapheme. Rather than the typical "n" sound, which has the front of the tongue touch the top of the mouth, it is the back of the tongue used in these "ng" and "nk" sounds.
+It can be said that the "ng" as well as "nk" sounds make a completely different mouth shape compared to the solitary "n" sound, and thus ingLix should not use the letter "<nglx>n</nglx>" in this composite grapheme. Rather than the typical "n" sound, which has the front of the tongue touch the top of the mouth, it is the back of the tongue used in these "ng" and "nk" sounds.
 
-In English, it is incredibly rare to have that back of the tongue "n" sound appear without being followed by a "g" or a "k" sound. This is something that comes naturally to English speakers. As such, for this case, rather than associating a new letter to the sound for the inglix system, we will trim the fat and leave it up to intuition.
+In English, it is incredibly rare to have that back of the tongue "n" sound appear without being followed by a "g" or a "k" sound. This is something that comes naturally to English speakers. As such, for this case, rather than associating a new letter to the sound for the ingLix system, we will trim the fat and leave it up to intuition.
 
 ## Homonyms
 
-To express homonyms, inglix chooses a unique approach. This is where the trivia starts to emerge.
+To express homonyms, ingLix chooses a unique approach. This is where the _real_ trivia starts to emerge.
 
-The inglix dictionary will identify homonyms uniquely by duplicating the first letter of the word for each instance of a homonym.
+The ingLix dictionary will identify homonyms uniquely by duplicating the first letter of the word for each instance of a homonym.
 
 Take the words "to", "too", and "two", for example.
 
-In inglix, we might write these as "tU", "ttU", and "tttU", respectively. It will be up to you to remember "wic wwic iz wic" (which witch is which). However since it is uncommon for there to be more than 3 homonyms for a given sounding word, this approach seems quite clean and elegant being the only case of double letters in all of inglix.
+In ingLix, we might write these as "<nglx>tU</nglx>", "<nglx>ttU</nglx>", and "<nglx>tttU</nglx>", respectively. It will be up to you to remember "<nglx>wic</nglx> <nglx>wwic</nglx> <nglx>iz</nglx> <nglx>wic</nglx>" (which witch is which). However since it is uncommon for there to be more than 3 homonyms for a given sounding word, this approach seems quite clean and elegant being the only case of double letters permissible in all of ingLix.
 
 ## Syntax
 
-The inglix writing system is made for writing English. Therefore, it works basically the same way! However, there are some key differences to take note of!
+The ingLix writing system is made for writing English. Therefore, it works basically the same way! However, there are some key differences to take note of!
 
 ### Casing
 
-In inglix, you do not capitalize the first letter of a sentence of even those of proper nouns! Every version of a letter, that is to say uppercase and lowercase, is reserved intentionally to express words phonetically. This allows for inglix to be much, much simpler than English, and even strip down the alphabet a good deal.
+In ingLix, you do not capitalize the first letter of a sentence or even those of proper nouns! Every version of a letter, that is to say uppercase and lowercase, is reserved intentionally to express words phonetically. This allows for ingLix to be much, much simpler than English, and even strip down the alphabet a good deal.
 
-Perhaps the best way to get started reading and writing inglix is to not think of letters in terms of uppercase and lowercase anymore at all, but rather as a set of unique letters each with a resulting sound (some of which happen to only be accessible via another letter on the keyboard in tandem with the shift key :sweat_smile:)
+Perhaps the best way to get started reading and writing ingLix is to not think of letters in terms of uppercase and lowercase anymore at all, but rather as a set of unique letters each with a resulting sound (some of which happen to only be accessible via a letter on the keyboard in tandem with the shift key :sweat_smile:)
 
 ### Proper Nouns
 
-It was just mentioned how proper nouns need not be capitalized in inglix, but in truth, it may serve to confuse people even spelling proper nouns in inglix at all.
+It was just mentioned how proper nouns need not be capitalized in ingLix, but in truth, it may serve to confuse people even spelling proper nouns in ingLix at all.
 
-It is up to the writer to decide how they wish to spell proper nouns. They may choose to lean into inglix and spell proper nouns in good inglix, but it is also perfectly acceptable in an inglix text to spell proper nouns in English, even with the capitalized first letter. This is not forbidden.
+It is up to the writer to decide how they wish to spell proper nouns. They may choose to lean into ingLix and spell proper nouns in _<nglx>gud</nglx> ingLix_, but it is also perfectly acceptable in an ingLix text to spell proper nouns in English, even with the capitalized first letter. This is not forbidden.
 
 ### Punctuation
 
@@ -241,22 +316,34 @@ Punctuation is to be used in the same way as it is already used in English.
 
 ### Apostrophes
 
-Apostrophes are notable. In inglix, they will be used in the same inglix words as their English counterparts.
+Apostrophes are notable. In ingLix, they will be used in the same ingLix words as their English counterparts.
 
-For example, the words "there", "their", and "they're" you might think to spell as "Ter", "TTer", and "TTTer" in inglix. Instead, we can promote comprehension by continuing to use contractions the same way we already do in English. Therefore, "they're" would be spelled "Te'r", reducing the number of our identically spelled words and adding a bit of extra _flavour_ to the inglix.
+For example, the words "there", "their", and "they're" you might think to spell as "<nglx>Ter</nglx>", "<nglx>TTer</nglx>", and "<nglx>TTTer</nglx>" in ingLix. Instead however, we can promote comprehension by continuing to use contractions the same way we already do in English. Therefore, "they're" would be spelled "<nglx>Te'r</nglx>", reducing the number of our identically spelled words and adding a bit of extra _flavour_ to the ingLix.
 
 ### Hyphenated words
 
-Hyphens can be used in inglix to contract words in the exact same way that they would be used in English, but note that this does not impact identically spelled words in the same way that apostrophes sort of seem to.
+Hyphens can be used in ingLix to contract words in the exact same way that they would be used in English, but note that this does not impact identically spelled words in the same way that apostrophes would.
 
-For example, consider the words "marry" and "merry". We might spell them respectively as "merI" and "mmerI". When we go to spell the word "merry-go-round", we still have to spell "merry" the way it is spelled on its own. So this becomes "mmerI-go-raUnd".
+For example, consider the words "marry" and "merry". We might spell them respectively as "<nglx>merI</nglx>" and "<nglx>mmerI</nglx>". Now, when we go to spell the word "merry-go-round", we still have to spell "merry" the way it is spelled on its own. So this becomes "<nglx>mmerI-gO-raUnd</nglx>".
 
-Perhaps it seems obvious, but it is important to note.
+Perhaps an obvious point, but significant nonetheless.
+
+### Acronyms
+
+Given that ingLix changes the semantics of uppercase and lowercase letter usage, using acronyms becomes a challenge.
+
+The current method to address this (subject to change) is to enclose an acronym in square brackets, and like proper nouns, either use the English acronym in all capitals, or the ingLix acronym with proper ingLix letters.
+
+As an example, one could denote the National Aeronautics and Space Administration (NASA) as "\[NASA\]" or "\[NeSa\]".
+
+It is not ideal to deviate from how English uses punctuation for special circumstances, so proposals for better ideas are fully welcome.
 
 ## To Do
 
 - Transpiler script
 - Dictionary
 - Alphabet reference
-- Write inglix version of this readme file
-- Rename letters (maybe just the uppercase)
+- Write ingLix version of this readme file
+- Consider how to tackle syllabic emphasis/stress
+- Embrace using new symbols/accents? Maybe the plain alphabet can't solve all problems
+- Keyboard layout?
