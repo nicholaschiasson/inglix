@@ -34,7 +34,7 @@ impl LocalDictionary {
 		if !file.exists() {
 			fs::create_dir_all(file.parent().expect("Get dictionary directory name"))
 				.expect("Create dictionary directory");
-			fs::write(&file, "").expect("Create dictionary file");
+			fs::write(&file, serializer.empty_file()).expect("Create dictionary file");
 		}
 		Self {
 			file: file.into(),
