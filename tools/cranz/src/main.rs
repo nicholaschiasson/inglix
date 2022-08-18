@@ -75,7 +75,7 @@ fn main() -> Result<(), Box<dyn Error>> {
 		let mut word = String::new();
 		for c in line.chars() {
 			if !c.is_alphabetic() && c != '\'' {
-				if word.len() > 0 {
+				if !word.is_empty() {
 					// end of word, dump word
 					if let Ok(w) = transpiler.transpile(&word) {
 						out_line.push_str(&w.to_string());

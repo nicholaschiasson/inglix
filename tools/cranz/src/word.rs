@@ -57,21 +57,15 @@ impl TryFrom<&String> for Word {
 	fn try_from(s: &String) -> Result<Self, Self::Error> {
 		let mut characters = Vec::new();
 		let (s_trimmed, homonym_index);
-		if let Some(c) = s.chars().nth(0) {
-			characters.push(
-				c.try_into()
-					.map_err(|e: String| WordError::Any(e.to_string()))?,
-			);
+		if let Some(c) = s.chars().next() {
+			characters.push(c.try_into().map_err(WordError::Any)?);
 			s_trimmed = s.trim_start_matches(c);
 			homonym_index = s.len() - s_trimmed.len() - 1;
 		} else {
 			return Err(WordError::ZeroLength);
 		}
 		for c in s_trimmed.chars() {
-			characters.push(
-				c.try_into()
-					.map_err(|e: String| WordError::Any(e.to_string()))?,
-			);
+			characters.push(c.try_into().map_err(WordError::Any)?);
 		}
 		Ok(Self {
 			characters,

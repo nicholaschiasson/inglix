@@ -20,7 +20,7 @@ impl Transpile for InteractiveTranspiler {
 	fn transpile(&mut self, word: &String) -> Result<Word, String> {
 		let stdin = io::stdin();
 
-		if let Some(w) = self.dictionary.lookup(&word) {
+		if let Some(w) = self.dictionary.lookup(word) {
 			Ok(w)
 		} else {
 			eprint!("No transpilation for '{word}': ");
@@ -35,7 +35,7 @@ impl Transpile for InteractiveTranspiler {
 					(Ok(tw), false) => {
 						self
 							.dictionary
-							.upsert(&word, &tw)
+							.upsert(word, &tw)
 							.expect("Update dictionary with new transpilation");
 					},
 					(Err(WordError::Any(e)), false) => {
