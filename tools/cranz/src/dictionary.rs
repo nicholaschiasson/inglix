@@ -1,6 +1,6 @@
 use crate::word::Word;
 
 pub trait Dictionary {
-	fn lookup(&self, word: &String) -> Option<Word>;
-	fn upsert(&mut self, word: &String, traspilation: &Word) -> Result<(), String>;
+	fn lookup(&self, word: &str) -> Option<Word>;
+	fn upsert(&mut self, word: &str, traspilation: &Word) -> Result<(), String>;
 }

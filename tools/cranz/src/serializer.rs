@@ -16,6 +16,7 @@ impl Serializer {
 		}
 	}
 
+	#[allow(clippy::wrong_self_convention)]
 	pub fn from_str<'a, T: Deserialize<'a>>(&self, s: &'a str) -> Result<T, String> {
 		match self {
 			Serializer::Json => serde_json::from_str(s).map_err(|e| format!("{e}")),

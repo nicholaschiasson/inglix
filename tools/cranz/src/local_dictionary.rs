@@ -47,11 +47,11 @@ impl LocalDictionary {
 }
 
 impl Dictionary for LocalDictionary {
-	fn lookup(&self, word: &String) -> Option<Word> {
+	fn lookup(&self, word: &str) -> Option<Word> {
 		self.dict.English_ingLix.get(&word.to_lowercase()).cloned()
 	}
 
-	fn upsert(&mut self, english_word: &String, inglix_word: &Word) -> Result<(), String> {
+	fn upsert(&mut self, english_word: &str, inglix_word: &Word) -> Result<(), String> {
 		let mut engs = HashSet::from([english_word.to_lowercase()]);
 		let mut ing = inglix_word.clone();
 

@@ -17,7 +17,7 @@ impl InteractiveTranspiler {
 }
 
 impl Transpile for InteractiveTranspiler {
-	fn transpile(&mut self, word: &String) -> Result<Word, String> {
+	fn transpile(&mut self, word: &str) -> Result<Word, String> {
 		let stdin = io::stdin();
 
 		if let Some(w) = self.dictionary.lookup(word) {
