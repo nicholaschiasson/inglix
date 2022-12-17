@@ -246,7 +246,7 @@ These are primarily for example purposes. Some of the composites listed below ar
 | ŋɡ | `ng` | <nglx>`ng`</nglx>[^12] | `sing`, `tongue` | <nglx>`sing`</nglx>, <nglx>`tHng`</nglx> |
 | ŋk | `nk` | <nglx>`nk`</nglx> | `pink` | <nglx>`pink`</nglx> |
 | ks | `x` | <nglx>`ks`</nglx> | `box` | <nglx>`boks`</nglx> |
-| kw | `qu` | <nglx>`kU`</nglx> | `quit` | <nglx>`kwit`</nglx> |
+| kw | `qu` | <nglx>`kw`</nglx> | `quit` | <nglx>`kwit`</nglx> |
 | aɪ ɪŋ | `ying` | <nglx>`aIing`</nglx> | `trying` | <nglx>`craIing`</nglx> |
 
 [^9]: Words with this composite phoneme are represented with a phonetic spelling that does not match the way the majority of English speakers pronounce these words. Most people don't pronounce the vowel sounds in the words "high" and "height" identically, even though their phonetic spellings use the same vowel combination "aɪ". The decision was made in ingLix to respect the differences and distinguish them with their own unique spellings.
