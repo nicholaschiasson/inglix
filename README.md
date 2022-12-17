@@ -160,7 +160,7 @@ It is commonly considered that there are 5 long vowels but the "ay" as well as t
 |-|-|-|-|-|
 | i | `ee`, `ea` | <nglx>`I`</nglx> | `bee`, `beat` | <nglx>`bI`</nglx>, <nglx>`bIt`</nglx> |
 | ou, oʊ | `oe`, `ow` | <nglx>`O`</nglx>[^4] | `toe`, `flow` | <nglx>`tO`</nglx>, <nglx>`fLO`</nglx> |
-| u | `oo`, `ue` | <nglx>`U`</nglx> | `moon`, `cue` | <nglx>`mUn`</nglx>, <nglx>`kIU`</nglx> |
+| u | `oo`, `ue` | <nglx>`U`</nglx> | `moon`, `cue` | <nglx>`mUn`</nglx>, <nglx>`kyU`</nglx> |
 
 [^4]: This is actually a composite phoneme in disguise. To understand why it is listed here, see the section about the [long "o" vowel sound exception](#long-o-vowel).
 
@@ -234,25 +234,28 @@ These are primarily for example purposes. Some of the composites listed below ar
 |-|-|-|-|-|
 | aɪ | `ie`, `igh` | <nglx>`aI`</nglx> | `pie`, `high` | <nglx>`paI`</nglx>, <nglx>`haI`</nglx> |
 | eɪ | `ai`, `ay` | <nglx>`eI`</nglx> | `paid`, `tray` | <nglx>`peId`</nglx>, <nglx>`creI`</nglx> |
+| aɪt[^9] | `ight`, `ite` | <nglx>`HIt`</nglx> | `bite`, `fight`, `height` | <nglx>`bHIt`</nglx>, <nglx>`fHIt`</nglx>, <nglx>`hHIt`</nglx> |
 | ɜr, ər | `er`, `ir`, `ur` | <nglx>`ur`</nglx> | `her`, `bird`, `hurt` | <nglx>`hur`</nglx>, <nglx>`burd`</nglx>, <nglx>`hurt`</nglx> |
-| ɑr | `ar` | <nglx>`ar`</nglx>[^9] | `car` | <nglx>`kar`</nglx> |
-| ɔr | `or` | <nglx>`Or`</nglx>[^10] | `cork` | <nglx>`kOrk`</nglx> |
+| ɑr | `ar` | <nglx>`ar`</nglx>[^10] | `car` | <nglx>`kar`</nglx> |
+| ɔr | `or` | <nglx>`Or`</nglx>[^11] | `cork` | <nglx>`kOrk`</nglx> |
 | au | `ow`, `ou` | <nglx>`aU`</nglx> | `cow`, `out` | <nglx>`kaU`</nglx>, <nglx>`aUt`</nglx> |
 | ɔɪ | `oy`, `oi` | <nglx>`OI`</nglx> | `boy`, `void` | <nglx>`bOI`</nglx>, <nglx>`vOId`</nglx> |
 | ɪər | `eer`, `ear` | <nglx>`Ir`</nglx> | `deer`, `near` | <nglx>`dIr`</nglx>, <nglx>`nIr`</nglx> |
 | er | `air`, `ere` | <nglx>`er`</nglx> | `hair`, `there` | <nglx>`her`</nglx>, <nglx>`Ter`</nglx> |
 | ur | `our` | <nglx>`Ur`</nglx> | `tour` | <nglx>`tUr`</nglx> |
-| ŋɡ | `ng` | <nglx>`ng`</nglx>[^11] | `sing`, `tongue` | <nglx>`sing`</nglx>, <nglx>`tHng`</nglx> |
+| ŋɡ | `ng` | <nglx>`ng`</nglx>[^12] | `sing`, `tongue` | <nglx>`sing`</nglx>, <nglx>`tHng`</nglx> |
 | ŋk | `nk` | <nglx>`nk`</nglx> | `pink` | <nglx>`pink`</nglx> |
 | ks | `x` | <nglx>`ks`</nglx> | `box` | <nglx>`boks`</nglx> |
-| kw | `qu` | <nglx>`kU`</nglx> | `quit` | <nglx>`kUit`</nglx> |
+| kw | `qu` | <nglx>`kU`</nglx> | `quit` | <nglx>`kwit`</nglx> |
 | aɪ ɪŋ | `ying` | <nglx>`aIing`</nglx> | `trying` | <nglx>`craIing`</nglx> |
 
-[^9]: This specific composite phoneme is actually a tricky case and still up for debate for its representation in ingLix. See the section on the [r-controlled short "a" vowel exception](#r-controlled-short-a-vowel) to understand the choice here.
+[^9]: Words with this composite phoneme are represented with a phonetic spelling that does not match the way the majority of English speakers pronounce these words. Most people don't pronounce the vowel sounds in the words "high" and "height" identically, even though their phonetic spellings use the same vowel combination "aɪ". The decision was made in ingLix to respect the differences and distinguish them with their own unique spellings.
 
-[^10]: Yet another exceptional case. While this one might be somewhat less noticeable, it is in fact a misrepresentation of the true sounds you make when vocalizing this sound. See the section on the [r-controlled long "o" vowel exception](#r-controlled-long-o-vowel) for an explanation.
+[^10]: This specific composite phoneme is actually a tricky case and still up for debate for its representation in ingLix. See the section on the [r-controlled short "a" vowel exception](#r-controlled-short-a-vowel) to understand the choice here.
 
-[^11]: If you noticed that the "n" in an "ng" or "nk" sound is not the same tip-of-the-tongue regular "n" sound, then you are indeed a keen one. Otherwise, you may be interested to learn just why this is an exception. See the section about the ["ng" vowel exception](#ngnk-consonants) for some explanation.
+[^11]: Yet another exceptional case. While this one might be somewhat less noticeable, it is in fact a misrepresentation of the true sounds you make when vocalizing this sound. See the section on the [r-controlled long "o" vowel exception](#r-controlled-long-o-vowel) for an explanation.
+
+[^12]: If you noticed that the "n" in an "ng" or "nk" sound is not the same tip-of-the-tongue regular "n" sound, then you are indeed a keen one. Otherwise, you may be interested to learn just why this is an exception. See the section about the ["ng" vowel exception](#ngnk-consonants) for some explanation.
 
 ### Exceptions
 
@@ -293,6 +296,35 @@ The ingLix dictionary will identify homonyms uniquely by duplicating the first l
 Take the words "to", "too", and "two", for example.
 
 In ingLix, we might write these as "<nglx>tU</nglx>", "<nglx>ttU</nglx>", and "<nglx>tttU</nglx>", respectively. It will be up to you to remember "<nglx>wic</nglx> <nglx>wwic</nglx> <nglx>iz</nglx> <nglx>wic</nglx>" (which witch is which). However since it is uncommon for there to be more than 3 homonyms for a given sounding word, this approach seems quite clean and elegant being the only case of double letters permissible in all of ingLix.
+
+## Plurals
+
+### The Problem
+
+The question of how to handle plural nouns is a difficult one, as it introduces the dilemma: should we favour grammar rules at the risk of introducing grapheme usage exceptions, ie. spellings which don't exactly match how a word should be pronounced; or should we favour spelling consistency according to pronunciation at the risk of complicating an already elegant grammar rule?
+
+In English, the rule to make something plural is rather simple: add an "s". :clap:
+
+Of course, it's not always that simple. There exist words which need further modification to allow that "s". Word already ends in "s"? Okay, add "es". Word ends in "y"? Okay, change the "y" to "ie" and then add an "s". Then there are special words that don't add an "s" to become plural. Such arbitrary cases consist largely of words who carry their pluralization rule from their origin language. "Cactus", for example, coming from Greek and having a brush-in with Latin before making it into the English language, becomes "cacti" when pluralized. And let's not forgot about the other assortment of seemingly arbitrary cases in the catalog. "Foot" becomes "feet". "Thief" becomes "thieves". "Amoeba" becomes "amoebae". And "sheep" stays the same.
+
+Yes, the English language can never be so simple. Luckily, thanks to the elegance of ingLix's design, we really don't have to worry about those cases. The thing we _DO_ have to worry about is representing pronunciation as accurately as possible. And that can be hard when sometimes the "s" is spoken as a "z"...
+
+There it is. The crux of the issue. As beautiful of a rule as "add an s" is, the English language finds a way to ruin it by sometimes having them pronounced like "z". As a simple example that comes to mind, try the word "bees". If you really pronounce that "s" as an "s", I would like to know where you're from and what dialect you speak, because that's no way I've ever heard the word "bees" pronounced. No, that "s" on the end is so naturally voiced, it would sound weird to try _not_ voicing it. Almost like the word "beast" if you were to remove the "t".
+
+So what do we do? Well, this is perhaps the least confident decision taken by ingLix out of the lot of them. This may change in the future, given enough solid argument to the contrary, but for now...
+
+### The Solution
+
+In ingLix, we abolish the "add an s" rule in favour of accurately representing pronunciation. Add an "s" when the plural form of the word sounds like it ends with an "s". Add a "z" when the plural form of the word sounds like it ends with a "z". Fill in the gaps with the vowel that sounds most appropriate. Usually, this will be the ingLix "<nglx>i</nglx>" sound.
+
+### Examples
+
+| English Singular | English Plural | ingLix Singular | ingLix Plural |
+|-|-|-|-|
+| `bee` | `bees` | <nglx>`bI`</nglx> | <nglx>`bIz`</nglx> |
+| `cat` | `cats` | <nglx>`kat`</nglx> | <nglx>`kats`</nglx> |
+| `class` | `classes` | <nglx>`kLas`</nglx> | <nglx>`kLasiz`</nglx> |
+| `tax` | `taxes` | <nglx>`taks`</nglx> | <nglx>`taksiz`</nglx> |
 
 ## Syntax
 
