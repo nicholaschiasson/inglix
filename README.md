@@ -154,7 +154,7 @@ See the [exceptions] section for a comprehensive explanation of each case which 
 
 ##### Long Vowels
 
-It is commonly considered that there are 5 long vowels but the "ay" as well as the "ie"/"igh" sounds are very clearly compositions of two different vowels. As such, those are omitted from the list of [pure] phonemes and instead listed as a [composite] phonemes further below.
+It is commonly considered that there are 5 long vowels but the "ay" as well as the "ie"/"igh" sounds are very clearly compositions of two different vowels. As such, those are omitted from the list of [pure] phonemes and instead listed as [composite] phonemes further below.
 
 | [IPA] Grapheme(s) | Common English Grapheme(s) | inglix Grapheme | English Example | inglix Example |
 |-|-|-|-|-|
