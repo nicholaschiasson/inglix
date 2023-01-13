@@ -200,7 +200,7 @@ For the sake of structure, these vowel-plus-"r" combinations will be appropriate
 | j | `y` | <nglx>`y`</nglx>[^7] | `yak`, `vineyard` | <nglx>`yak`</nglx>, <nglx>`vinyurd`</nglx> |
 | z | `z` | <nglx>`z`</nglx> | `zoo` | <nglx>`zU`</nglx> |
 
-[^5]: The "L" is the only consonant that appears in the ingLix alphabet in its uppercase form and not in its lowercase form. The reason is simply to remove ambiguity between the letters "l" and the long "i" vowel, since that is expressed in ingLix by uppercase "I". With some fonts, lowercase "l" may look very similar to uppercase "I".
+[^5]: This may seem to be a bizarre choice of grapheme for the unvoiced "th" sound. The fact is that it was chosen simply because a stereotypical "s" lisp tends to make this sound also. So why not use "<nglx>S</nglx>" to represent it (different casing since the "s" sound is already taken by "<nglx>s</nglx>")? It's almost too perfect!
 
 [^6]: The "<nglx>w</nglx>" is a special case to be included in inglix. Read more about the reason for including it and its proper usage in the section below dedicated to [the "w" consonant].
 

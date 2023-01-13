@@ -4,7 +4,7 @@ use std::{
 	path::PathBuf,
 };
 
-use ingLix::Word;
+use inglix::Word;
 use serde::{Deserialize, Serialize};
 
 use crate::{dictionary::Dictionary, serializer::Serializer};

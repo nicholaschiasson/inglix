@@ -1,4 +1,4 @@
-use ingLix::Word;
+use inglix::Word;
 
 pub trait Dictionary {
 	fn lookup(&self, word: &str) -> Option<Word>;

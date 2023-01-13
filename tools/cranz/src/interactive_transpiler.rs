@@ -1,6 +1,6 @@
 use std::io;
 
-use ingLix::{Word, word::WordError};
+use inglix::{Word, word::WordError};
 
 use crate::{
 	dictionary::Dictionary,

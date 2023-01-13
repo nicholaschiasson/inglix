@@ -1,4 +1,4 @@
-use ingLix::word;
+use inglix::word;
 use uuid::Uuid;
 
 use crate::schema::words;
