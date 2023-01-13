@@ -58,7 +58,7 @@ In inglix, the concept of uppercase and lowercase letters being alternate versio
 
 Given this notion of identity, it follows that some letters in the inglix alphabet will need to be granted new names so we don't have to refer to them as "uppercase this" and "lowercase that". Of course, this is just a convenience. Since it's one more thing to remember, feel free to do as you please and call the letters whatever you want.
 
-If you wish to address the letters by their inglix names, then you may refer to the list below. Most of them will have the same names we already use. The rest will have a name spelled out both in inglix (which you probably won't understand until having read the section on [inglix graphemes](#graphemes) below) and with an English approximation (I'll try my best with those but honestly you're just going to have to _sound it out_).
+If you wish to address the letters by their inglix names, then you may refer to the list below. Most of them will have the same names we already use. The rest will have a name spelled out both in inglix (which you probably won't understand until having read the section on [inglix graphemes] below) and with an English approximation (I'll try my best with those but honestly you're just going to have to _sound it out_).
 
 <details>
 
@@ -107,7 +107,7 @@ If you wish to address the letters by their inglix names, then you may refer to 
 
 Graphemes are the written representations of the units of sound we can make when speaking, also known as phonemes. In other words, a grapheme is the letter(s) we use to represent a sound.
 
-We will divide the list of English phonemes into two sets, [pure](#pure-graphemes) and [composite](#composite-graphemes), and assign inglix graphemes to those.
+We will divide the list of English phonemes into two sets, [pure] and [composite], and assign inglix graphemes to those.
 
 We will consider a pure phoneme to be an atomic sound in which the mouth shape remains relatively unchanged or steady for the duration of the sound.
 
@@ -129,7 +129,7 @@ As it is the aim of inglix to strike a balance between covering as many pure pho
 
 Basically, inglix opts for slight optimizations, omitting arguably less useful letters which would normally be used to denote implicit or nearly "silent" phonemes. In cases like these, it should be virtually impossible for ambiguity to arise for the majority of English readers (at least, among those who share the Standard Canadian accent).
 
-See the [exceptions](#exceptions) section for a comprehensive explanation of each case which "breaks the rules" of inglix. If we are doing things right, you shouldn't even immediately realize that these are exceptions at all, until we actually point them out.
+See the [exceptions] section for a comprehensive explanation of each case which "breaks the rules" of inglix. If we are doing things right, you shouldn't even immediately realize that these are exceptions at all, until we actually point them out.
 
 </details>
 
@@ -139,7 +139,7 @@ See the [exceptions](#exceptions) section for a comprehensive explanation of eac
 
 ##### Short Vowels
 
-| [IPA](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet) Grapheme(s) | Common English Grapheme(s) | inglix Grapheme | English Example | inglix Example |
+| [IPA] Grapheme(s) | Common English Grapheme(s) | inglix Grapheme | English Example | inglix Example |
 |-|-|-|-|-|
 | æ, ɑ[^2] | `a` | <nglx>`a`</nglx> | `cat`, `bag`, `fan`[^3] | <nglx>`kat`</nglx>, <nglx>`bag`</nglx>, <nglx>`fan`</nglx> |
 | e, ɛ | `e` | <nglx>`e`</nglx> | `leg` | <nglx>`leg`</nglx> |
@@ -150,19 +150,19 @@ See the [exceptions](#exceptions) section for a comprehensive explanation of eac
 
 [^2]: Some phonetic symbols represent sounds that are very similar. In such cases we will simply list them all together.
 
-[^3]: Wondering why you pronounce these three words differently even though they are supposedly the same sound? See the section about the [short "a" vowel sound exception](#short-a-vowel-and-others) for details about that. In summary, let your accent shine. Consider this your final taste of freedom of expression before inglix takes it all away...
+[^3]: Wondering why you pronounce these three words differently even though they are supposedly the same sound? See the section about the [short "a" vowel sound exception] for details about that. In summary, let your accent shine. Consider this your final taste of freedom of expression before inglix takes it all away...
 
 ##### Long Vowels
 
-It is commonly considered that there are 5 long vowels but the "ay" as well as the "ie"/"igh" sounds are very clearly compositions of two different vowels. As such, those are omitted from the list of [pure](#pure-graphemes) phonemes and instead listed as a [composite](#composite-graphemes) phonemes further below.
+It is commonly considered that there are 5 long vowels but the "ay" as well as the "ie"/"igh" sounds are very clearly compositions of two different vowels. As such, those are omitted from the list of [pure] phonemes and instead listed as [composite] phonemes further below.
 
-| [IPA](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet) Grapheme(s) | Common English Grapheme(s) | inglix Grapheme | English Example | inglix Example |
+| [IPA] Grapheme(s) | Common English Grapheme(s) | inglix Grapheme | English Example | inglix Example |
 |-|-|-|-|-|
 | i | `ee`, `ea` | <nglx>`E`</nglx> | `bee`, `beat` | <nglx>`bE`</nglx>, <nglx>`bEt`</nglx> |
 | ou, oʊ | `oe`, `ow` | <nglx>`O`</nglx>[^4] | `toe`, `flow` | <nglx>`tO`</nglx>, <nglx>`flO`</nglx> |
 | u | `oo`, `ue` | <nglx>`U`</nglx> | `moon`, `cue` | <nglx>`mUn`</nglx>, <nglx>`kyU`</nglx> |
 
-[^4]: This is actually a composite phoneme in disguise. To understand why it is listed here, see the section about the [long "o" vowel sound exception](#long-o-vowel).
+[^4]: This is actually a composite phoneme in disguise. To understand why it is listed here, see the section about the [long "o" vowel sound exception].
 
 ##### R-Controlled Vowels
 
@@ -170,11 +170,11 @@ There exist special case vowel sounds that only manifest in English when followe
 
 In inglix no additional characters/symbols are spent to express these since it is likely not beneficial to do so. Instead, inglix has chosen some best-fit characters to represent these cases. The chosen vowels are similar enough in sound to what is intended so that the sound to make comes obvious to any reader. There is an argument to be made that due to the simple fact that these vowels are terminated by an "r" consonant, the mouth is almost force into the right shape to make the right sound (so long as the speaker is using the same "r" sound as one with the Standard Canadian English accent... rolled/trilled "r"s are unaccounted for, sorry).
 
-For the sake of structure, these vowel-plus-"r" combinations will be appropriately identified in the section about [composite graphemes](#composite-graphemes).
+For the sake of structure, these vowel-plus-"r" combinations will be appropriately identified in the section about [composite graphemes].
 
 #### Consonants
 
-| [IPA](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet) Grapheme(s) | Common English Grapheme(s) | inglix Grapheme | English Example | inglix Example |
+| [IPA] Grapheme(s) | Common English Grapheme(s) | inglix Grapheme | English Example | inglix Example |
 |-|-|-|-|-|
 | b | `b` | <nglx>`b`</nglx> | `bet` | <nglx>`bet`</nglx> |
 | tʃ | `ch` | <nglx>`c`</nglx> | `chain` | <nglx>`ceEn`</nglx> |
@@ -202,9 +202,9 @@ For the sake of structure, these vowel-plus-"r" combinations will be appropriate
 
 [^5]: This may seem to be a bizarre choice of grapheme for the unvoiced "th" sound. The fact is that it was chosen simply because a stereotypical "s" lisp tends to make this sound also. So why not use "<nglx>S</nglx>" to represent it (different casing since the "s" sound is already taken by "<nglx>s</nglx>")? It's almost too perfect!
 
-[^6]: The "<nglx>w</nglx>" is a special case to be included in inglix. Read more about the reason for including it and its proper usage in the section below dedicated to [the "w" consonant](#the-w-consonant).
+[^6]: The "<nglx>w</nglx>" is a special case to be included in inglix. Read more about the reason for including it and its proper usage in the section below dedicated to [the "w" consonant].
 
-[^7]: The "<nglx>y</nglx>" is special for similar reasons to "<nglx>w</nglx>". See the section about [the "y" consonant](#the-y-consonant) for a brief explanation.
+[^7]: The "<nglx>y</nglx>" is special for similar reasons to "<nglx>w</nglx>". See the section about [the "y" consonant] for a brief explanation.
 
 ##### The "w" consonant
 
@@ -220,7 +220,7 @@ The "<nglx>w</nglx>" should only be used at the beginning of a word or as in the
 
 ##### The "y" consonant
 
-The discussion surrounding [the "w" consonant](#the-w-consonant) is basically exactly applicable to the "y" consonant. It too could probably be sufficiently replaced by another character, the inglix "<nglx>E</nglx>". However its inclusion helps to clear up some potential confusion and ambiguity, preventing the wrong emphasis in some places.
+The discussion surrounding [the "w" consonant] is basically exactly applicable to the "y" consonant. It too could probably be sufficiently replaced by another character, the inglix "<nglx>E</nglx>". However its inclusion helps to clear up some potential confusion and ambiguity, preventing the wrong emphasis in some places.
 
 Like "<nglx>w</nglx>", "<nglx>y</nglx>" should only be used at the beginning of a word or when following a consonant sound in the middle of a word where the separation between the two consonant sounds is to be emphasized. An example of this could be the word "vineyward". Note here that the "y" doesn't actually follow a consonant, but based on pronunciation, it does follow a consonant _sound_. In inglix, this word would be spelled "<nglx>vinyurd</nglx>"
 
@@ -228,7 +228,7 @@ Like "<nglx>w</nglx>", "<nglx>y</nglx>" should only be used at the beginning of 
 
 These are primarily for example purposes. Some of the composites listed below are self-evident and only listed due to the fact that they are commonly treated as unique phonemes but in practice sound indistinguishable from their parts. However, there are a few items in the list below which are perhaps good to note, such as the "ie"/"igh" long vowel sound and the "ng" sound.
 
-| [IPA](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet) Grapheme(s) | Common English Grapheme(s) | inglix Grapheme | English Example | inglix Example |
+| [IPA] Grapheme(s) | Common English Grapheme(s) | inglix Grapheme | English Example | inglix Example |
 |-|-|-|-|-|
 | aɪ | `ie`, `igh` | <nglx>`aE`</nglx> | `pie`, `high` | <nglx>`paE`</nglx>, <nglx>`haE`</nglx> |
 | eɪ | `ai`, `ay` | <nglx>`eE`</nglx> | `paid`, `tray` | <nglx>`peEd`</nglx>, <nglx>`creE`</nglx> |
@@ -249,11 +249,11 @@ These are primarily for example purposes. Some of the composites listed below ar
 
 [^8]: Words with this composite phoneme are represented with a phonetic spelling that does not match the way the majority of English speakers pronounce these words. Most people don't pronounce the vowel sounds in the words "high" and "height" identically, even though their phonetic spellings use the same vowel combination "aɪ". The decision was made in inglix to respect the differences and distinguish them with their own unique spellings.
 
-[^9]: This specific composite phoneme is actually a tricky case and still up for debate for its representation in inglix. See the section on the [r-controlled short "a" vowel exception](#r-controlled-short-a-vowel) to understand the choice here.
+[^9]: This specific composite phoneme is actually a tricky case and still up for debate for its representation in inglix. See the section on the [r-controlled short "a" vowel exception] to understand the choice here.
 
-[^10]: Yet another exceptional case. While this one might be somewhat less noticeable, it is in fact a misrepresentation of the true sounds you make when vocalizing this sound. See the section on the [r-controlled long "o" vowel exception](#r-controlled-long-o-vowel) for an explanation.
+[^10]: Yet another exceptional case. While this one might be somewhat less noticeable, it is in fact a misrepresentation of the true sounds you make when vocalizing this sound. See the section on the [r-controlled long "o" vowel exception] for an explanation.
 
-[^11]: If you noticed that the "n" in an "ng" or "nk" sound is not the same tip-of-the-tongue regular "n" sound, then you are indeed a keen one. Otherwise, you may be interested to learn just why this is an exception. See the section about the ["ng" vowel exception](#ngnk-consonants) for some explanation.
+[^11]: If you noticed that the "n" in an "ng" or "nk" sound is not the same tip-of-the-tongue regular "n" sound, then you are indeed a keen one. Otherwise, you may be interested to learn just why this is an exception. See the section about the ["ng" vowel exception] for some explanation.
 
 ### Exceptions
 
@@ -377,3 +377,17 @@ This is quite awkward and it is not ideal to deviate from how English uses punct
 - Consider how to tackle syllabic emphasis/stress
 - Embrace using new symbols/accents? Maybe the plain alphabet can't solve all problems
 - Keyboard layout?
+
+[composite]: #composite-graphemes
+[composite graphemes]: #composite-graphemes
+[exceptions]: #exceptions
+[inglix graphemes]: #graphemes
+[IPA]: https://en.wikipedia.org/wiki/International_Phonetic_Alphabet
+[long "o" vowel sound exception]: #long-o-vowel
+["ng" vowel exception]: #ngnk-consonants
+[pure]: #pure-graphemes
+[r-controlled long "o" vowel exception]: #r-controlled-long-o-vowel
+[r-controlled short "a" vowel exception]: #r-controlled-short-a-vowel
+[short "a" vowel sound exception]: #short-a-vowel-and-others
+[the "w" consonant]: #the-w-consonant
+[the "y" consonant]: #the-y-consonant
