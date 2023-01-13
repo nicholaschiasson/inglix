@@ -212,7 +212,7 @@ There is a case to be made against "<nglx>w</nglx>" being included in inglix. In
 
 In spite of that, "<nglx>w</nglx>" is somewhat elegant, instantly recognizable, and intuitive in its own right. Using a "<nglx>U</nglx>" in its place might confuse readers into emphasizing the long "u" vowel sound, making some words sound awkward.
 
-Furthermore, the use of a "<nglx>w</nglx>" removes ambiguity in cases where the "w" follows a consonant sound in the middle of a word. Et acts almost as a pause. Take, for example, the name "Oswald". In inglix, we would spell this "<nglx>ozwoLd</nglx>" to accomplish the same intended pronunciation. If we were to spell it "<nglx>ozUold</nglx>", most would likely read this with the "z" sound leading into the long "u" vowel sound, making it sound like "ozu wald" or maybe even worsley partitioned, like "ozu ald".
+Furthermore, the use of a "<nglx>w</nglx>" removes ambiguity in cases where the "w" follows a consonant sound in the middle of a word. Et acts almost as a pause. Take, for example, the name "Oswald". In inglix, we would spell this "<nglx>ozwoLd</nglx>" to accomplish the same intended pronunciation. If we were to spell it "<nglx>ozUold</nglx>", most would likely read this with the "z" sound leading into the long "u" vowel sound, making it sound like "ozu wald" or maybe even more poorly partitioned, like "ozu ald".
 
 As such, "<nglx>w</nglx>" can for now.
 
