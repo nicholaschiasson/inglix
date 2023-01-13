@@ -208,7 +208,7 @@ For the sake of structure, these vowel-plus-"r" combinations will be appropriate
 
 ##### The "w" consonant
 
-There is a case to be made against "<nglx>w</nglx>" being included in inglix. Enstead, it could have probably simply been replaced by the inglix "<nglx>U</nglx>". This would be similar to how the French language uses "ou" in place of the "w" sound (for native French words).
+There is a case to be made against "<nglx>w</nglx>" being included in inglix. Instead, it could have probably simply been replaced by the inglix "<nglx>U</nglx>". This would be similar to how the French language uses "ou" in place of the "w" sound (for native French words).
 
 In spite of that, "<nglx>w</nglx>" is somewhat elegant, instantly recognizable, and intuitive in its own right. Using a "<nglx>U</nglx>" in its place might confuse readers into emphasizing the long "u" vowel sound, making some words sound awkward.
 
@@ -348,7 +348,7 @@ Punctuation is to be used in the same way as it is already used in English.
 
 Apostrophes are notable. In inglix, they will be used in the same inglix words as their English counterparts.
 
-For example, the words "there", "their", and "they're" you might think to spell as "<nglx>Ter</nglx>", "<nglx>TTer</nglx>", and "<nglx>TTTer</nglx>" in inglix. Enstead however, we can promote comprehension by continuing to use contractions the same way we already do in English. Therefore, "they're" would be spelled "<nglx>Te'r</nglx>", reducing the number of our identically spelled words and adding a bit of extra _flavour_ to the inglix.
+For example, the words "there", "their", and "they're" you might think to spell as "<nglx>Ter</nglx>", "<nglx>TTer</nglx>", and "<nglx>TTTer</nglx>" in inglix. Instead however, we can promote comprehension by continuing to use contractions the same way we already do in English. Therefore, "they're" would be spelled "<nglx>Te'r</nglx>", reducing the number of our identically spelled words and adding a bit of extra _flavour_ to the inglix.
 
 ### Hyphenated words
 
