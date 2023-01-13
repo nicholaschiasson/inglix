@@ -2,7 +2,7 @@
 name = "cranz"
 version = "0.1.0"
 edition = "2021"
-description = "Command-line utility to transpile a text file between Enlish and ingLix, interactively updating a dictionary on the fly with any as-of-yet untranspiled words."
+description = "Command-line utility to transpile a text file between Enlish and inglix, interactively updating a dictionary on the fly with any as-of-yet untranspiled words."
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 

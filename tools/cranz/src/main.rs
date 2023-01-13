@@ -24,14 +24,14 @@ mod word;
 #[derive(Parser)]
 #[clap(author, version, about, long_about = None)]
 struct Cli {
-	/// File to transpile from English into ingLix
+	/// File to transpile from English into inglix
 	#[clap(value_parser)]
 	file: PathBuf,
 	/// File to use as persistant dictionary
 	#[clap(
 		short,
 		long,
-		default_value = "./English_ingLix_Dictionary.toml",
+		default_value = "./English_inglix_Dictionary.toml",
 		value_parser
 	)]
 	dictionary: String,
@@ -41,7 +41,7 @@ struct Cli {
  * What this program does:
  * 1. Read file line by line.
  * 2. Buffer non-word characters to transpiled line.
- * 3. Perform word lookups in English to ingLix dictionary.
+ * 3. Perform word lookups in English to inglix dictionary.
  * 4. Ask user for word transpilation if word not yet in dictionary.
  * 5. Add newly transpiled word to dictionary.
  * 6. Buffer transpiled word to transpiled line.
