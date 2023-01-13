@@ -13,9 +13,9 @@ use crate::{dictionary::Dictionary, serializer::Serializer, word::Word};
 #[serde(rename_all = "kebab-case")]
 struct EnglishInglixDictionary {
 	#[serde(default)]
-	English_ingLix: HashMap<String, Word>,
+	English_inglix: HashMap<String, Word>,
 	#[serde(default)]
-	ingLix_English: HashMap<Word, String>,
+	inglix_English: HashMap<Word, String>,
 }
 
 pub struct LocalDictionary {
@@ -48,14 +48,14 @@ impl LocalDictionary {
 
 impl Dictionary for LocalDictionary {
 	fn lookup(&self, word: &str) -> Option<Word> {
-		self.dict.English_ingLix.get(&word.to_lowercase()).cloned()
+		self.dict.English_inglix.get(&word.to_lowercase()).cloned()
 	}
 
 	fn upsert(&mut self, english_word: &str, inglix_word: &Word) -> Result<(), String> {
 		let mut engs = HashSet::from([english_word.to_lowercase()]);
 		let mut ing = inglix_word.clone();
 
-		while let Some(eng) = self.dict.ingLix_English.get(&ing) {
+		while let Some(eng) = self.dict.inglix_English.get(&ing) {
 			engs.insert(eng.to_lowercase());
 			ing.make_homonym();
 		}
@@ -67,11 +67,11 @@ impl Dictionary for LocalDictionary {
 		for eng in engs {
 			self
 				.dict
-				.English_ingLix
+				.English_inglix
 				.insert(eng.to_owned(), ing.to_owned());
 			self
 				.dict
-				.ingLix_English
+				.inglix_English
 				.insert(ing.to_owned(), eng.to_owned());
 			ing.make_homonym()
 		}
