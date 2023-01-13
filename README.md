@@ -216,13 +216,13 @@ Furthermore, the use of a "<nglx>w</nglx>" removes ambiguity in cases where the 
 
 As such, "<nglx>w</nglx>" can for now.
 
-The "<nglx>w</nglx>" should only be used at the beginning of a word or as in the case above, when following a consonant sound in the middle of a word where that separation between the previous consonant and the "w" is important. En all other cases one might think to use a "<nglx>w</nglx>", use a "<nglx>U</nglx>" instead.
+The "<nglx>w</nglx>" should only be used at the beginning of a word or as in the case above, when following a consonant sound in the middle of a word where that separation between the previous consonant and the "w" is important. In all other cases one might think to use a "<nglx>w</nglx>", use a "<nglx>U</nglx>" instead.
 
 ##### The "y" consonant
 
 The discussion surrounding [the "w" consonant](#the-w-consonant) is basically exactly applicable to the "y" consonant. It too could probably be sufficiently replaced by another character, the inglix "<nglx>E</nglx>". However its inclusion helps to clear up some potential confusion and ambiguity, preventing the wrong emphasis in some places.
 
-Like "<nglx>w</nglx>", "<nglx>y</nglx>" should only be used at the beginning of a word or when following a consonant sound in the middle of a word where the separation between the two consonant sounds is to be emphasized. An example of this could be the word "vineyward". Note here that the "y" doesn't actually follow a consonant, but based on pronunciation, it does follow a consonant _sound_. En inglix, this word would be spelled "<nglx>vinyurd</nglx>"
+Like "<nglx>w</nglx>", "<nglx>y</nglx>" should only be used at the beginning of a word or when following a consonant sound in the middle of a word where the separation between the two consonant sounds is to be emphasized. An example of this could be the word "vineyward". Note here that the "y" doesn't actually follow a consonant, but based on pronunciation, it does follow a consonant _sound_. In inglix, this word would be spelled "<nglx>vinyurd</nglx>"
 
 ### Composite Graphemes
 
