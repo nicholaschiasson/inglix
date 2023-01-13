@@ -58,7 +58,7 @@ In inglix, the concept of uppercase and lowercase letters being alternate versio
 
 Given this notion of identity, it follows that some letters in the inglix alphabet will need to be granted new names so we don't have to refer to them as "uppercase this" and "lowercase that". Of course, this is just a convenience. Since it's one more thing to remember, feel free to do as you please and call the letters whatever you want.
 
-If you wish to address the letters by their inglix names, then you may refer to the list below. Most of them will have the same names we already use. The rest will have a name spelled out both in inglix (which you probably won't understand until having read the section on [inglix graphemes](#graphemes) below) and with an English approximation (I'll try my best with those but honestly you're just going to have to _sound it out_).
+If you wish to address the letters by their inglix names, then you may refer to the list below. Most of them will have the same names we already use. The rest will have a name spelled out both in inglix (which you probably won't understand until having read the section on [inglix graphemes] below) and with an English approximation (I'll try my best with those but honestly you're just going to have to _sound it out_).
 
 <details>
 
@@ -139,7 +139,7 @@ See the [exceptions](#exceptions) section for a comprehensive explanation of eac
 
 ##### Short Vowels
 
-| [IPA](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet) Grapheme(s) | Common English Grapheme(s) | inglix Grapheme | English Example | inglix Example |
+| [IPA] Grapheme(s) | Common English Grapheme(s) | inglix Grapheme | English Example | inglix Example |
 |-|-|-|-|-|
 | æ, ɑ[^2] | `a` | <nglx>`a`</nglx> | `cat`, `bag`, `fan`[^3] | <nglx>`kat`</nglx>, <nglx>`bag`</nglx>, <nglx>`fan`</nglx> |
 | e, ɛ | `e` | <nglx>`e`</nglx> | `leg` | <nglx>`leg`</nglx> |
@@ -377,3 +377,6 @@ This is quite awkward and it is not ideal to deviate from how English uses punct
 - Consider how to tackle syllabic emphasis/stress
 - Embrace using new symbols/accents? Maybe the plain alphabet can't solve all problems
 - Keyboard layout?
+
+[inglix graphemes]: #graphemes
+[IPA]: https://en.wikipedia.org/wiki/International_Phonetic_Alphabet
