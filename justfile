@@ -1,5 +1,3 @@
-set shell := ["nu", "-c"]
-
 fmt:
     cargo fmt
 
