@@ -1,7 +1,11 @@
-set shell := ["nu", "-c"]
+clean *ARGS:
+	cargo clean {{ARGS}}
 
-fmt:
-    cargo fmt
+serve *ARGS:
+	cargo watch -xrun {{ARGS}}
 
-transpile *ARGS: fmt
-    cargo run --package cranz {{ARGS}}
+test *ARGS: test_clean
+	hurl --very-verbose --report-html report --test test.hurl {{ARGS}}
+
+test_clean *ARGS:
+	hurl --very-verbose clean.hurl {{ARGS}} || true
