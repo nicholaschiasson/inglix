@@ -4,9 +4,10 @@ use std::{
 	path::PathBuf,
 };
 
+use inglix::Word;
 use serde::{Deserialize, Serialize};
 
-use crate::{dictionary::Dictionary, serializer::Serializer, word::Word};
+use crate::{dictionary::Dictionary, serializer::Serializer};
 
 #[derive(Serialize, Deserialize)]
 #[allow(non_snake_case)]

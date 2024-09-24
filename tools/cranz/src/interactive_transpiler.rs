@@ -1,9 +1,10 @@
 use std::io;
 
+use inglix::{Word, word::WordError};
+
 use crate::{
 	dictionary::Dictionary,
 	transpile::Transpile,
-	word::{Word, WordError},
 };
 
 pub struct InteractiveTranspiler {

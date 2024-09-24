@@ -1,4 +1,8 @@
 [workspace]
 members = [
+    "apps/ing",
+    "libs/inglix",
+    "services/dictionary",
+    "services/entrypoint",
     "tools/cranz"
 ]

@@ -1,10 +1,11 @@
 use std::fmt;
 
+// use diesel::{backend::Backend, deserialize::{FromSql, self}, types::Varchar};
 use serde::{Deserialize, Serialize};
 
 use crate::grapheme::Grapheme;
 
-#[derive(Clone, Debug)]
+#[derive(Clone, Debug, Deserialize, Eq, Hash, Ord, PartialEq, PartialOrd, Serialize)]
 pub enum WordError {
 	Any(String),
 	ZeroLength,
@@ -23,7 +24,7 @@ impl fmt::Display for WordError {
 	}
 }
 
-#[derive(Clone, Debug, Deserialize, Eq, Hash, PartialEq, Serialize)]
+#[derive(Clone, Debug, Deserialize, Eq, Hash, Ord, PartialEq, PartialOrd, Serialize)]
 #[serde(into = "String")]
 #[serde(try_from = "String")]
 pub struct Word {
@@ -42,6 +43,15 @@ impl From<Word> for String {
 		w.to_string()
 	}
 }
+
+// impl<DB> FromSql<Varchar, DB> for Word
+// where
+// 	DB: Backend
+// {
+// 	fn from_sql(bytes: Option<&DB::RawValue>) -> deserialize::Result<Self> {
+// 		Ok("a".to_string().try_into().unwrap())
+// 	}
+// }
 
 impl TryFrom<String> for Word {
 	type Error = WordError;
