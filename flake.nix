@@ -12,7 +12,6 @@
           pkgs.cargo-watch
           pkgs.iconv
           pkgs.just
-          pkgs.nerdfonts
           pkgs.rustup
           pkgs.starship
           pkgs.trunk
