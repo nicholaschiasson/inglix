@@ -4,7 +4,7 @@ use serde::{Deserialize, Serialize};
 
 use crate::grapheme::Grapheme;
 
-#[derive(Clone, Debug)]
+#[derive(Clone, Debug, Deserialize, Eq, Hash, Ord, PartialEq, PartialOrd, Serialize)]
 pub enum WordError {
 	Any(String),
 	ZeroLength,
@@ -23,7 +23,7 @@ impl fmt::Display for WordError {
 	}
 }
 
-#[derive(Clone, Debug, Deserialize, Eq, Hash, PartialEq, Serialize)]
+#[derive(Clone, Debug, Deserialize, Eq, Hash, Ord, PartialEq, PartialOrd, Serialize)]
 #[serde(into = "String")]
 #[serde(try_from = "String")]
 pub struct Word {

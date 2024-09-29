@@ -212,7 +212,7 @@ There is a case to be made against "<nglx>w</nglx>" being included in inglix. In
 
 In spite of that, "<nglx>w</nglx>" is somewhat elegant, instantly recognizable, and intuitive in its own right. Using a "<nglx>U</nglx>" in its place might confuse readers into emphasizing the long "u" vowel sound, making some words sound awkward.
 
-Furthermore, the use of a "<nglx>w</nglx>" removes ambiguity in cases where the "w" follows a consonant sound in the middle of a word. Et acts almost as a pause. Take, for example, the name "Oswald". In inglix, we would spell this "<nglx>ozwoLd</nglx>" to accomplish the same intended pronunciation. If we were to spell it "<nglx>ozUold</nglx>", most would likely read this with the "z" sound leading into the long "u" vowel sound, making it sound like "ozu wald" or maybe even more poorly partitioned, like "ozu ald".
+Furthermore, the use of a "<nglx>w</nglx>" removes ambiguity in cases where the "w" follows a consonant sound in the middle of a word. It acts almost as a pause. Take, for example, the name "Oswald". In inglix, we would spell this "<nglx>ozwoLd</nglx>" to accomplish the same intended pronunciation. If we were to spell it "<nglx>ozUold</nglx>", most would likely read this with the "z" sound leading into the long "u" vowel sound, making it sound like "ozu wald" or maybe even more poorly partitioned, like "ozu ald".
 
 As such, "<nglx>w</nglx>" can for now.
 
@@ -293,7 +293,7 @@ The inglix dictionary will identify homonyms uniquely by duplicating the first l
 
 Take the words "to", "too", and "two", for example.
 
-In inglix, we might write these as "<nglx>tU</nglx>", "<nglx>ttU</nglx>", and "<nglx>tttU</nglx>", respectively. Et will be up to you to remember "<nglx>wic</nglx> <nglx>wwic</nglx> <nglx>iz</nglx> <nglx>wic</nglx>" (which witch is which). However since it is uncommon for there to be more than 3 homonyms for a given sounding word, this approach seems quite clean and elegant being the only case of double letters permissible in all of inglix.
+In inglix, we might write these as "<nglx>tU</nglx>", "<nglx>ttU</nglx>", and "<nglx>tttU</nglx>", respectively. It will be up to you to remember "<nglx>wic</nglx> <nglx>wwic</nglx> <nglx>iz</nglx> <nglx>wic</nglx>" (which witch is which). However since it is uncommon for there to be more than 3 homonyms for a given sounding word, this approach seems quite clean and elegant being the only case of double letters permissible in all of inglix.
 
 ## Plurals
 
@@ -367,16 +367,6 @@ The current method to address this (subject to change) is to enclose an acronym 
 As an example, one could denote the National Aeronautics and Space Administration (NASA) as "\[NASA\]", or "<nglx>\[nesa\]</nglx>" (since "Aeronautics" would be spelled "<nglx>erOnotiks</nglx>"), or "<nglx>\[nasa\]</nglx>".
 
 This is quite awkward and it is not ideal to deviate from how English uses punctuation just for special circumstances, so proposals for better ideas are fully welcome.
-
-## To Do
-
-- Transpiler script
-- Dictionary
-- Alphabet reference
-- Write inglix version of this readme file
-- Consider how to tackle syllabic emphasis/stress
-- Embrace using new symbols/accents? Maybe the plain alphabet can't solve all problems
-- Keyboard layout?
 
 [composite]: #composite-graphemes
 [composite graphemes]: #composite-graphemes

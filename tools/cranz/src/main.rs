@@ -14,12 +14,10 @@ use local_dictionary::LocalDictionary;
 use crate::transpile::Transpile;
 
 mod dictionary;
-mod grapheme;
 mod interactive_transpiler;
 mod local_dictionary;
 mod serializer;
 mod transpile;
-mod word;
 
 #[derive(Parser)]
 #[clap(author, version, about, long_about = None)]

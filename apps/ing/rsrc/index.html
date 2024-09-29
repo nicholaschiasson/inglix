@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>inglix</title>
+  <script src="/scripts/vendored/htmx.min.js"></script>
+  <style>
+    .word {
+      display: flex;
+    }
+
+    .word span {
+      flex: auto;
+    }
+
+    .word .english-spelling {
+      order: 1;
+    }
+
+    .word .inglix-spelling {
+      order: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <div hx-include="[name='from'], [name='search']">
+    <input checked type="radio" id="search-from-english" name="from" value="english">
+    <label for="search-from-english">English</label>
+    <input type="radio" id="search-from-inglix" name="from" value="inglix">
+    <label for="search-from-inglish">inglix</label>
+    <input type="search" id="search-value" name="search" placeholder="Search for a word..."
+      hx-get="/api/public/v1/words" hx-target="#search-results"
+      hx-trigger="input changed delay:500ms, search, click from:(#search-from-english, #search-from-inglix)">
+  </div>
+  <ul id="search-results">
+  </ul>
+  <script>
+    const searchValue = document.getElementById('search-value');
+    searchValue.addEventListener('htmx:beforeRequest', e => {
+      if (e.srcElement.value.length < 1) {
+        e.preventDefault();
+      }
+    });
+  </script>
+</body>
+
+</html>
