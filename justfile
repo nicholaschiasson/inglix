@@ -5,6 +5,7 @@ check *ARGS:
 	cargo check {{ARGS}}
 
 clean *ARGS:
+	rm -rf report
 	cargo clean {{ARGS}}
 
 format *ARGS:

@@ -6,3 +6,4 @@ members = [
     "services/entrypoint",
     "tools/cranz"
 ]
+resolver = "2"
