@@ -63,9 +63,9 @@ fn main() -> Result<(), Box<dyn Error>> {
 	let f = File::open(cli.file)?;
 	let reader = BufReader::new(f);
 
-	let mut transpiler = InteractiveTranspiler::new(Box::new(LocalDictionary::new(
-		&PathBuf::try_from(cli.dictionary).expect("Valid path to dictionary file"),
-	)));
+	let mut transpiler = InteractiveTranspiler::new(Box::new(LocalDictionary::new(&PathBuf::from(
+		cli.dictionary,
+	))));
 
 	for line in reader.lines() {
 		let line = line.expect("Read line from file");

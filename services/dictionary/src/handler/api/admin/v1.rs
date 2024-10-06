@@ -12,12 +12,12 @@ use crate::{dal, model::Word, AppState};
 #[derive(Deserialize)]
 struct CreateWord {
 	english_spelling: String,
-	inglix_spelling: String,
+	inglix_spelling: inglix::Word,
 }
 
 impl From<CreateWord> for Word {
 	fn from(val: CreateWord) -> Self {
-		Word::new(&val.english_spelling, &val.inglix_spelling)
+		Word::new(&val.english_spelling, val.inglix_spelling)
 	}
 }
 

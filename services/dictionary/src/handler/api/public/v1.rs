@@ -7,6 +7,7 @@ use axum::{
 	Json, Router,
 };
 use axum_extra::either::Either;
+use inglix::word::WordError;
 use serde::Deserialize;
 use uuid::Uuid;
 
@@ -46,13 +47,15 @@ struct SearchWordQuery {
 }
 
 impl TryFrom<SearchWordQuery> for SearchWord {
-	type Error = ();
+	type Error = String;
 
 	fn try_from(value: SearchWordQuery) -> Result<Self, Self::Error> {
 		match (value.from, value.search) {
 			(Some(SearchWordFrom::English), Some(s)) => Ok(SearchWord::English(s)),
-			(Some(SearchWordFrom::Inglix), Some(s)) => Ok(SearchWord::Inglix(s)),
-			_ => Err(()),
+			(Some(SearchWordFrom::Inglix), Some(s)) => Ok(SearchWord::Inglix(
+				s.parse().map_err(|e: WordError| e.to_string())?,
+			)),
+			_ => Err("Missing required parameter for search query".to_string()),
 		}
 	}
 }

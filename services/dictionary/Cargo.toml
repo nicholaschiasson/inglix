@@ -9,7 +9,7 @@ edition = "2021"
 askama = "0.12.1"
 axum = "0.7.5"
 axum-extra = "0.9.3"
-inglix = { path = "../../libs/inglix" }
+inglix = { path = "../../libs/inglix", features = ["sqlite"] }
 serde = { version = "1.0.197", features = ["derive"] }
 serde_json = "1.0.115"
 sqlx = { version = "0.7.4", features = ["sqlite", "uuid"] }

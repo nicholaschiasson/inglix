@@ -1,3 +1,5 @@
+use std::fmt::Display;
+
 use sqlx::SqlitePool;
 use uuid::fmt::Hyphenated as Uuid;
 
@@ -6,7 +8,7 @@ use crate::model::Word;
 #[derive(Clone, Debug)]
 pub enum SearchWord {
 	English(String),
-	Inglix(String),
+	Inglix(inglix::Word),
 }
 
 impl SearchWord {
@@ -16,11 +18,13 @@ impl SearchWord {
 			SearchWord::Inglix(_) => "inglix_spelling",
 		}
 	}
+}
 
-	fn value(&self) -> &str {
+impl Display for SearchWord {
+	fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
 		match self {
-			SearchWord::English(s) => s,
-			SearchWord::Inglix(s) => s,
+			SearchWord::English(s) => write!(f, "{s}"),
+			SearchWord::Inglix(s) => write!(f, "{s}"),
 		}
 	}
 }
@@ -60,7 +64,7 @@ pub async fn get_words(
 		.unwrap_or_default();
 	let search_value = search
 		.as_ref()
-		.map(|s| format!("%{}%", s.value()))
+		.map(|s| format!("%{}%", s))
 		.unwrap_or_default();
 	sqlx::query_as::<_, Word>(&format!("SELECT * FROM word {}", search_field))
 		.bind(search_value)

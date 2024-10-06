@@ -1,4 +1,8 @@
+use std::{fmt::Display, str::FromStr};
+
 use serde::{Deserialize, Serialize};
+
+use crate::Word;
 
 #[allow(non_camel_case_types)]
 #[derive(Clone, Copy, Debug, Deserialize, Eq, Hash, Ord, PartialEq, PartialOrd, Serialize)]
@@ -39,40 +43,41 @@ pub enum Grapheme {
 }
 
 impl Grapheme {
-	pub fn name(&self) -> String {
+	pub fn name(&self) -> Word {
+		use Grapheme::*;
 		match self {
-			Self::a => String::from("eE"),
-			Self::b => String::from("bE"),
-			Self::c => String::from("sE"),
-			Self::d => String::from("dE"),
-			Self::e => String::from("E"),
-			Self::E => String::from("mE"),
-			Self::f => String::from("ef"),
-			Self::g => String::from("jE"),
-			Self::J => String::from("JE"),
-			Self::h => String::from("eEc"),
-			Self::i => String::from("aE"),
-			Self::j => String::from("jeE"),
-			Self::k => String::from("keE"),
-			Self::l => String::from("el"),
-			Self::m => String::from("em"),
-			Self::n => String::from("en"),
-			Self::o => String::from("O"),
-			Self::O => String::from("nO"),
-			Self::p => String::from("pE"),
-			Self::r => String::from("ar"),
-			Self::s => String::from("es"),
-			Self::S => String::from("eS"),
-			Self::t => String::from("tE"),
-			Self::T => String::from("TE"),
-			Self::u => String::from("yU"),
-			Self::U => String::from("hU"),
-			Self::H => String::from("hHm"),
-			Self::v => String::from("vE"),
-			Self::w => String::from("dHblyU"),
-			Self::x => String::from("eks"),
-			Self::y => String::from("waE"),
-			Self::z => String::from("zE"),
+			Self::a => Word::new(e, &[E]),
+			Self::b => Word::new(b, &[E]),
+			Self::c => Word::new(s, &[E]),
+			Self::d => Word::new(d, &[E]),
+			Self::e => Word::new(E, &[]),
+			Self::E => Word::new(m, &[E]),
+			Self::f => Word::new(e, &[f]),
+			Self::g => Word::new(j, &[E]),
+			Self::J => Word::new(J, &[E]),
+			Self::h => Word::new(e, &[E, c]),
+			Self::i => Word::new(a, &[E]),
+			Self::j => Word::new(j, &[e, E]),
+			Self::k => Word::new(k, &[e, E]),
+			Self::l => Word::new(e, &[l]),
+			Self::m => Word::new(e, &[m]),
+			Self::n => Word::new(e, &[n]),
+			Self::o => Word::new(O, &[]),
+			Self::O => Word::new(n, &[O]),
+			Self::p => Word::new(p, &[E]),
+			Self::r => Word::new(a, &[r]),
+			Self::s => Word::new(e, &[s]),
+			Self::S => Word::new(e, &[S]),
+			Self::t => Word::new(t, &[E]),
+			Self::T => Word::new(T, &[E]),
+			Self::u => Word::new(y, &[U]),
+			Self::U => Word::new(h, &[U]),
+			Self::H => Word::new(h, &[H, m]),
+			Self::v => Word::new(v, &[E]),
+			Self::w => Word::new(d, &[H, b, l, y, U]),
+			Self::x => Word::new(e, &[k, s]),
+			Self::y => Word::new(w, &[a, E]),
+			Self::z => Word::new(z, &[E]),
 		}
 	}
 }
@@ -121,6 +126,12 @@ impl TryFrom<char> for Grapheme {
 
 impl From<Grapheme> for char {
 	fn from(grapheme: Grapheme) -> Self {
+		Self::from(&grapheme)
+	}
+}
+
+impl From<&Grapheme> for char {
+	fn from(grapheme: &Grapheme) -> Self {
 		match grapheme {
 			Grapheme::a => 'a',
 			Grapheme::b => 'b',
@@ -155,5 +166,56 @@ impl From<Grapheme> for char {
 			Grapheme::y => 'y',
 			Grapheme::z => 'z',
 		}
+	}
+}
+
+impl Display for Grapheme {
+	fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+		write!(f, "{}", char::from(self))
+	}
+}
+
+impl FromStr for Grapheme {
+	type Err = String;
+
+	fn from_str(s: &str) -> Result<Self, Self::Err> {
+		match s.chars().collect::<Vec<_>>()[..] {
+			[c] => c.try_into(),
+			[] => Err("Empty string".to_string()),
+			_ => Err(format!("Invalid string '{}'", s)),
+		}
+	}
+}
+
+#[cfg(test)]
+mod test {
+	use crate::Grapheme;
+
+	#[test]
+	fn name() {
+		assert_eq!("dHblyU", Grapheme::w.name().to_string());
+	}
+
+	#[test]
+	fn into_and_from_char() {
+		assert_eq!(Ok(Grapheme::a), Grapheme::try_from('a'));
+		assert_eq!(
+			Err("Invalid grapheme initialization 'q'".to_string()),
+			Grapheme::try_from('q')
+		);
+	}
+
+	#[test]
+	fn into_and_from_string() {
+		assert_eq!(Ok(Grapheme::a), "a".parse());
+		assert_eq!(
+			Err("Invalid grapheme initialization 'q'".to_string()),
+			"q".parse::<Grapheme>()
+		);
+		assert_eq!(Err("Empty string".to_string()), "".parse::<Grapheme>());
+		assert_eq!(
+			Err("Invalid string 'aa'".to_string()),
+			"aa".parse::<Grapheme>()
+		);
 	}
 }
