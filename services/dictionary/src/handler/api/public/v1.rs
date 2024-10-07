@@ -77,11 +77,15 @@ async fn get_words<S: AppState>(
 	Query(params): Query<SearchWordQuery>,
 	State(state): State<S>,
 ) -> Result<Either<Json<Vec<Word>>, Html<String>>, (StatusCode, String)> {
-	dal::get_words(state.pool(), params.try_into().ok())
+	let words = dal::get_words(state.pool(), params.try_into().ok())
 		.await
-		.map(|words| match headers[ACCEPT].to_str() {
-			Ok("application/json") => Either::E1(Json(words)),
-			_ => Either::E2(Html(SearchResults::from(words).render().unwrap())),
-		})
-		.map_err(|err| (StatusCode::INTERNAL_SERVER_ERROR, err.to_string()))
+		.map_err(|err| (StatusCode::INTERNAL_SERVER_ERROR, err.to_string()))?;
+
+	match headers[ACCEPT].to_str() {
+		Ok("application/json") => Ok(Either::E1(Json(words))),
+		_ => SearchResults::from(words)
+			.render()
+			.map(|html| Either::E2(Html(html))),
+	}
+	.map_err(|err: askama::Error| (StatusCode::INTERNAL_SERVER_ERROR, err.to_string()))
 }
