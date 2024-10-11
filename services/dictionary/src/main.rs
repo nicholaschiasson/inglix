@@ -1,10 +1,28 @@
 use axum::Router;
+use dictionary::AppState;
 use dotenv::dotenv;
-use sqlx::sqlite::SqlitePoolOptions;
+use sqlx::{sqlite::SqlitePoolOptions, SqlitePool};
 use tower_http::trace::TraceLayer;
 use tracing_subscriber::{layer::SubscriberExt, util::SubscriberInitExt};
 
 use std::time::Duration;
+
+#[derive(Clone)]
+struct State {
+	sqlite_pool: SqlitePool,
+}
+
+impl State {
+	pub fn new(pool: SqlitePool) -> Self {
+		Self { sqlite_pool: pool }
+	}
+}
+
+impl AppState for State {
+	fn pool(&self) -> &SqlitePool {
+		&self.sqlite_pool
+	}
+}
 
 #[tokio::main]
 async fn main() -> std::io::Result<()> {
@@ -19,7 +37,7 @@ async fn main() -> std::io::Result<()> {
 
 	let db_connection_str = std::env::var("DATABASE_URL").unwrap_or("inglix.db".to_string());
 
-	let state = dictionary::State::new(
+	let state = State::new(
 		SqlitePoolOptions::default()
 			.acquire_timeout(Duration::from_secs(3))
 			.connect(&db_connection_str)
@@ -28,7 +46,7 @@ async fn main() -> std::io::Result<()> {
 	);
 
 	let app = Router::new()
-		.nest("/", dictionary::router::<dictionary::State>())
+		.nest("/", dictionary::router::<State>())
 		.with_state(state)
 		.layer(TraceLayer::new_for_http());
 

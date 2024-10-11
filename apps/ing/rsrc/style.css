@@ -1,0 +1,55 @@
+@font-face {
+  font-family: Font Awesome;
+  src: url("/fonts/fontawesome/Font Awesome 6 Brands-Regular-400.otf") format(opentype);
+}
+
+@font-face {
+  font-family: Font Awesome;
+  src: url("/fonts/fontawesome/Font Awesome 6 Free-Solid-900.otf") format(opentype);
+}
+
+@font-face {
+  font-family: Font Awesome;
+  src: url("/fonts/fontawesome/Font Awesome 6 Free-Regular-400.otf") format(opentype);
+}
+
+:root {
+  background-attachment: fixed;
+  background-image: linear-gradient(lightblue, aliceblue);
+  font-family:
+    "ui-serif",
+    "Georgia",
+    "Cambria",
+    "Times New Roman",
+    "Times",
+    "serif",
+    "Font Awesome";
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+}
+
+header {
+  text-align: end;
+}
+
+nav {
+  align-items: center;
+  display: flex;
+  justify-content: right;
+  margin: 1em;
+}
+
+nav a {
+  margin: 0.5em;
+  text-decoration: none;
+}
+
+nav a img {
+  height: 2em;
+  vertical-align: top;
+}
