@@ -18,9 +18,9 @@ Now imagine writing an essay and believing that you have a vast vocabulary among
 
 I could keep going though. What about other words like "gauge"? Why is it spelled that way? What part does that "u" actually play? I hear this word quite often actually at work and just about every non-native speaker pronounces it more like "gowge". This is intuition. I agree it should be pronounced that way given its spelling. But it's not. I don't usually correct people on this because I don't want to be annoying about something that doesn't matter that much. But English, you're putting me in a tough spot here!
 
-What about all of these "O-U-G-H" sounds that are all _over_ the place? I mean seriously: "rough", "though", "through", "cough", "drought"! Enough is enough (:wink:)! That's five different pronunciations for the same four letter combination! This is only the tip of the iceberg though. English is riddled with weird spellings. The ones I've mentioned so far have been quite tame if I'm being honest.
+What about all of these "O-U-G-H" sounds that are all _over_ the place? I mean seriously: "rough", "though", "through", "cough", "drought"! Enough is enough (😉)! That's five different pronunciations for the same four letter combination! This is only the tip of the iceberg though. English is riddled with weird spellings. The ones I've mentioned so far have been quite tame if I'm being honest.
 
-Oh and maybe just as the cherry on top for that rant, even my own name, "Nicholas", is spelled ambiguously. I work with a lot of French speakers. The name also exists commonly among the French population, obviously, but they don't usually spell it with that "h" in there, so it's more often "Nicolas". And that's how people spell my name in DMs even though they can see my name written out right in front of them already _IN THE SOFTWARE_. If I'm being honest though, I don't usually go by "Nicholas". I usually go by "Nick"... :neutral_face: "_Nick_"... "***NICK***"?! A "k"?! You're going to change the "h" to a "k" for the nickname?! So now, when people write to me, the French speakers spell my name "Nic", the English speakers spell my name "Nick", and the rest of the understandably confused population spells my name "Nich"! My own name is a mess! Of course, I'm exaggerating my frustration here. I don't really care at all. In fact, it's actually just kind of funny to me.
+Oh and maybe just as the cherry on top for that rant, even my own name, "Nicholas", is spelled ambiguously. I work with a lot of French speakers. The name also exists commonly among the French population, obviously, but they don't usually spell it with that "h" in there, so it's more often "Nicolas". And that's how people spell my name in DMs even though they can see my name written out right in front of them already _IN THE SOFTWARE_. If I'm being honest though, I don't usually go by "Nicholas". I usually go by "Nick"... 😐 "_Nick_"... "***NICK***"?! A "k"?! You're going to change the "h" to a "k" for the nickname?! So now, when people write to me, the French speakers spell my name "Nic", the English speakers spell my name "Nick", and the rest of the understandably confused population spells my name "Nich"! My own name is a mess! Of course, I'm exaggerating my frustration here. I don't really care at all. In fact, it's actually just kind of funny to me.
 
 Of course, I understand that the origin story of the modern written English language is hairy and complex, and I understand that things will never really change. We need our systems to allow us to preserve our history. We need to keep as much information as accessible as possible. What that means is that we're stuck with the broken system, and probably for a long, long time. I have no real problem with that. It's maybe difficult to learn English, but in the end it is trivial. My complaints are real, but exaggerated.
 
@@ -30,13 +30,13 @@ The goal is simple: repurpose the letters in the English alphabet to make more s
 
 Of course it goes without saying that this will be quite opinionated. The dictionary will be entirely based on my own accent (Standard Canadian). It's entirely possible though that the system may be easily transposable to other accents. Hey, it might even just work right out of the box for Brits and I wouldn't know it. I guess time will tell.
 
-So if you read through the first sentence of this preamble and thought to yourself, "Hmmm... what is this word, 'W-R-O-U-G-H-T'...? OHH... 'ROT'! I see. Didn't know that's how you spelled that word. :thinking:", or even if you read through this sentence accidentally pronouncing the word "read" as "reed" on your first pass instead of "red", then buckle up because this project is _MADE FOR YOU_! We're about to fix English and there is no turning back!
+So if you read through the first sentence of this preamble and thought to yourself, "Hmmm... what is this word, 'W-R-O-U-G-H-T'...? OHH... 'ROT'! I see. Didn't know that's how you spelled that word. 🤔", or even if you read through this sentence accidentally pronouncing the word "read" as "reed" on your first pass instead of "red", then buckle up because this project is _MADE FOR YOU_! We're about to fix English and there is no turning back!
 
 </details>
 
 ## Alphabet
 
-### :no_good: English
+### 🙅 English
 
 26 letters. 2 Versions of each...
 
@@ -45,7 +45,7 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 a b c d e f g h i j k l m n o p q r s t u v w x y z
 ```
 
-### :ok_person: inglix
+### 🙆 inglix
 
 Only 32 letters total, carefully selected to represent all of the relevant sounds of English!
 
@@ -54,7 +54,7 @@ Only 32 letters total, carefully selected to represent all of the relevant sound
 a b c d e f g h i j k l m n o p   r s t u v w x y z
 ```
 
-In inglix, the concept of uppercase and lowercase letters being alternate versions of one another is completely abolished. Instead, each letter is unique in the sound it is associated with. For example "t" and "T" do not make the same sound. We no longer use the notion of lowercase "t" and uppercase "T". In inglix, they are each their own letter. Hmph, good for them, right? How empowering. :smiling_face_with_tear:
+In inglix, the concept of uppercase and lowercase letters being alternate versions of one another is completely abolished. Instead, each letter is unique in the sound it is associated with. For example "t" and "T" do not make the same sound. We no longer use the notion of lowercase "t" and uppercase "T". In inglix, they are each their own letter. Hmph, good for them, right? How empowering. 🥲
 
 Given this notion of identity, it follows that some letters in the inglix alphabet will need to be granted new names so we don't have to refer to them as "uppercase this" and "lowercase that". Of course, this is just a convenience. Since it's one more thing to remember, feel free to do as you please and call the letters whatever you want.
 
@@ -301,7 +301,7 @@ In inglix, we might write these as "<nglx>tU</nglx>", "<nglx>ttU</nglx>", and "<
 
 The question of how to handle plural nouns is a difficult one, as it introduces the dilemma: should we favour grammar rules at the risk of introducing grapheme usage exceptions, ie. spellings which don't exactly match how a word should be pronounced; or should we favour spelling consistency according to pronunciation at the risk of complicating an already elegant grammar rule?
 
-In English, the rule to make something plural is rather simple: add an "s". :clap:
+In English, the rule to make something plural is rather simple: add an "s". 👏
 
 Of course, it's not always that simple. There exist words which need further modification to allow that "s". Word already ends in "s"? Okay, add "es". Word ends in "y"? Okay, change the "y" to "ie" and then add an "s". Then there are special words that don't add an "s" to become plural. Such arbitrary cases consist largely of words who carry their pluralization rule from their origin language. "Cactus", for example, coming from Greek and having a brush-in with Latin before making it into the English language, becomes "cacti" when pluralized. And let's not forgot about the other assortment of seemingly arbitrary cases in the catalog. "Foot" becomes "feet". "Thief" becomes "thieves". "Amoeba" becomes "amoebae". And "sheep" stays the same.
 
@@ -332,7 +332,7 @@ The inglix writing system is made for writing English. Therefore, it works basic
 
 In inglix, you do not capitalize the first letter of a sentence or even those of proper nouns! Every version of a letter, that is to say uppercase and lowercase, is reserved intentionally to express words phonetically. This allows for inglix to be much, much simpler than English, and even strip down the alphabet a good deal.
 
-Perhaps the best way to get started reading and writing inglix is to not think of letters in terms of uppercase and lowercase anymore at all, but rather as a set of unique letters each with a resulting sound (some of which happen to only be accessible via a letter on the keyboard in tandem with the shift key :sweat_smile:).
+Perhaps the best way to get started reading and writing inglix is to not think of letters in terms of uppercase and lowercase anymore at all, but rather as a set of unique letters each with a resulting sound (some of which happen to only be accessible via a letter on the keyboard in tandem with the shift key 😅).
 
 ### Proper Nouns
 
