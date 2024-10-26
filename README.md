@@ -99,8 +99,6 @@ If you wish to address the letters by their inglix names, then you may refer to 
 | 31 | `y` | <nglx>`waE`</nglx> | **=** |
 | 32 | `z` | <nglx>`zE`</nglx> | **=** |
 
-[^1]: Like the name of the letter "G", but voiced. Really soften that "G" sound. It's the same way the French pronounce the name of their own letter "J".
-
 </details>
 
 ## Graphemes
@@ -148,10 +146,6 @@ See the [exceptions] section for a comprehensive explanation of each case which 
 | ʊ | `oo`, `u`, `o`, `ou` | <nglx>`u`</nglx> | `book`, `put`, `wolf`, `would` | <nglx>`buk`</nglx>, <nglx>`put`</nglx>, <nglx>`wulf`</nglx>, <nglx>`wud`</nglx> |
 | ʌ | `u` | <nglx>`H`</nglx> | `rub` | `rHb` |
 
-[^2]: Some phonetic symbols represent sounds that are very similar. In such cases we will simply list them all together.
-
-[^3]: Wondering why you pronounce these three words differently even though they are supposedly the same sound? See the section about the [short "a" vowel sound exception] for details about that. In summary, let your accent shine. Consider this your final taste of freedom of expression before inglix takes it all away...
-
 ##### Long Vowels
 
 It is commonly considered that there are 5 long vowels but the "ay" as well as the "ie"/"igh" sounds are very clearly compositions of two different vowels. As such, those are omitted from the list of [pure] phonemes and instead listed as [composite] phonemes further below.
@@ -161,8 +155,6 @@ It is commonly considered that there are 5 long vowels but the "ay" as well as t
 | i | `ee`, `ea` | <nglx>`E`</nglx> | `bee`, `beat` | <nglx>`bE`</nglx>, <nglx>`bEt`</nglx> |
 | ou, oʊ | `oe`, `ow` | <nglx>`O`</nglx>[^4] | `toe`, `flow` | <nglx>`tO`</nglx>, <nglx>`flO`</nglx> |
 | u | `oo`, `ue` | <nglx>`U`</nglx> | `moon`, `cue` | <nglx>`mUn`</nglx>, <nglx>`kyU`</nglx> |
-
-[^4]: This is actually a composite phoneme in disguise. To understand why it is listed here, see the section about the [long "o" vowel sound exception].
 
 ##### R-Controlled Vowels
 
@@ -199,12 +191,6 @@ For the sake of structure, these vowel-plus-"r" combinations will be appropriate
 | ʃ | `sh` | <nglx>`x`</nglx> | `ship` | <nglx>`xip`</nglx> |
 | j | `y` | <nglx>`y`</nglx>[^7] | `yak`, `vineyard` | <nglx>`yak`</nglx>, <nglx>`vinyurd`</nglx> |
 | z | `z` | <nglx>`z`</nglx> | `zoo` | <nglx>`zU`</nglx> |
-
-[^5]: This may seem to be a bizarre choice of grapheme for the unvoiced "th" sound. The fact is that it was chosen simply because a stereotypical "s" lisp tends to make this sound also. So why not use "<nglx>S</nglx>" to represent it (different casing since the "s" sound is already taken by "<nglx>s</nglx>")? It's almost too perfect!
-
-[^6]: The "<nglx>w</nglx>" is a special case to be included in inglix. Read more about the reason for including it and its proper usage in the section below dedicated to [the "w" consonant].
-
-[^7]: The "<nglx>y</nglx>" is special for similar reasons to "<nglx>w</nglx>". See the section about [the "y" consonant] for a brief explanation.
 
 ##### The "w" consonant
 
@@ -246,14 +232,6 @@ These are primarily for example purposes. Some of the composites listed below ar
 | ks | `x` | <nglx>`ks`</nglx> | `box` | <nglx>`boks`</nglx> |
 | kw | `qu` | <nglx>`kw`</nglx> | `quit` | <nglx>`kwit`</nglx> |
 | aɪ ɪŋ | `ying` | <nglx>`aEing`</nglx> | `trying` | <nglx>`craEing`</nglx> |
-
-[^8]: Words with this composite phoneme are represented with a phonetic spelling that does not match the way the majority of English speakers pronounce these words. Most people don't pronounce the vowel sounds in the words "high" and "height" identically, even though their phonetic spellings use the same vowel combination "aɪ". The decision was made in inglix to respect the differences and distinguish them with their own unique spellings.
-
-[^9]: This specific composite phoneme is actually a tricky case and still up for debate for its representation in inglix. See the section on the [r-controlled short "a" vowel exception] to understand the choice here.
-
-[^10]: Yet another exceptional case. While this one might be somewhat less noticeable, it is in fact a misrepresentation of the true sounds you make when vocalizing this sound. See the section on the [r-controlled long "o" vowel exception] for an explanation.
-
-[^11]: If you noticed that the "n" in an "ng" or "nk" sound is not the same tip-of-the-tongue regular "n" sound, then you are indeed a keen one. Otherwise, you may be interested to learn just why this is an exception. See the section about the ["ng" vowel exception] for some explanation.
 
 ### Exceptions
 
@@ -367,6 +345,40 @@ The current method to address this (subject to change) is to enclose an acronym 
 As an example, one could denote the National Aeronautics and Space Administration (NASA) as "\[NASA\]", or "<nglx>\[nesa\]</nglx>" (since "Aeronautics" would be spelled "<nglx>erOnotiks</nglx>"), or "<nglx>\[nasa\]</nglx>".
 
 This is quite awkward and it is not ideal to deviate from how English uses punctuation just for special circumstances, so proposals for better ideas are fully welcome.
+
+---
+
+[^1]: Like the name of the letter "G", but voiced. Really soften that "G" sound. It's the same way the French pronounce the name of their own letter "J".
+
+
+[^2]: Some phonetic symbols represent sounds that are very similar. In such cases we will simply list them all together.
+
+
+[^3]: Wondering why you pronounce these three words differently even though they are supposedly the same sound? See the section about the [short "a" vowel sound exception] for details about that. In summary, let your accent shine. Consider this your final taste of freedom of expression before inglix takes it all away...
+
+
+[^4]: This is actually a composite phoneme in disguise. To understand why it is listed here, see the section about the [long "o" vowel sound exception].
+
+
+[^5]: This may seem to be a bizarre choice of grapheme for the unvoiced "th" sound. The fact is that it was chosen simply because a stereotypical "s" lisp tends to make this sound also. So why not use "<nglx>S</nglx>" to represent it (different casing since the "s" sound is already taken by "<nglx>s</nglx>")? It's almost too perfect!
+
+
+[^6]: The "<nglx>w</nglx>" is a special case to be included in inglix. Read more about the reason for including it and its proper usage in the section below dedicated to [the "w" consonant].
+
+
+[^7]: The "<nglx>y</nglx>" is special for similar reasons to "<nglx>w</nglx>". See the section about [the "y" consonant] for a brief explanation.
+
+
+[^8]: Words with this composite phoneme are represented with a phonetic spelling that does not match the way the majority of English speakers pronounce these words. Most people don't pronounce the vowel sounds in the words "high" and "height" identically, even though their phonetic spellings use the same vowel combination "aɪ". The decision was made in inglix to respect the differences and distinguish them with their own unique spellings.
+
+
+[^9]: This specific composite phoneme is actually a tricky case and still up for debate for its representation in inglix. See the section on the [r-controlled short "a" vowel exception] to understand the choice here.
+
+
+[^10]: Yet another exceptional case. While this one might be somewhat less noticeable, it is in fact a misrepresentation of the true sounds you make when vocalizing this sound. See the section on the [r-controlled long "o" vowel exception] for an explanation.
+
+
+[^11]: If you noticed that the "n" in an "ng" or "nk" sound is not the same tip-of-the-tongue regular "n" sound, then you are indeed a keen one. Otherwise, you may be interested to learn just why this is an exception. See the section about the ["ng" vowel exception] for some explanation.
 
 [composite]: #composite-graphemes
 [composite graphemes]: #composite-graphemes

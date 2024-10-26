@@ -1,26 +1,19 @@
 use axum::Router;
 use dotenv::dotenv;
 use ing::AppState;
-use reqwest::Client;
 use tower_http::trace::TraceLayer;
 use tracing_subscriber::{layer::SubscriberExt, util::SubscriberInitExt};
 
 #[derive(Clone)]
-struct State {
-	reqwest_client: Client,
-}
+struct State {}
 
 impl State {
-	pub fn new(client: Client) -> Self {
-		Self { reqwest_client: client }
+	pub fn new() -> Self {
+		Self {}
 	}
 }
 
-impl AppState for State {
-	fn client(&self) -> &Client {
-			&self.reqwest_client
-	}
-}
+impl AppState for State {}
 
 #[tokio::main]
 async fn main() -> std::io::Result<()> {
@@ -33,7 +26,7 @@ async fn main() -> std::io::Result<()> {
 		.with(tracing_subscriber::fmt::layer())
 		.init();
 
-	let state = State::new(Client::new());
+	let state = State::new();
 
 	let app = Router::new()
 		.nest_service("/", ing::router::<State>())

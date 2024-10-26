@@ -1,12 +1,9 @@
 use askama::Template;
-use axum::{extract::State, response::Html, routing::get, Router};
+use axum::{response::Html, routing::get, Router};
 use pulldown_cmark::{Options, Parser};
-use reqwest::Client;
 use tower_http::services::{ServeDir, ServeFile};
 
-pub trait AppState: Clone + Send + Sync + 'static {
-	fn client(&self) -> &Client;
-}
+pub trait AppState: Clone + Send + Sync + 'static {}
 
 pub fn router<S: AppState>() -> Router<S> {
 	Router::new()
@@ -23,29 +20,13 @@ struct WikiTemplate {
 	wiki: String,
 }
 
-async fn get_wiki<S: AppState>(State(state): State<S>) -> Result<Html<String>, Html<String>> {
-	let readme_md = state
-		.client()
-		.get("https://raw.githubusercontent.com/nicholaschiasson/inglix/refs/heads/main/README.md")
-		.send()
-		.await
-		.map_err(|e| e.to_string())?
-		.text()
-		.await
-		.map_err(|e| e.to_string())?;
+async fn get_wiki<S: AppState>() -> Result<Html<String>, Html<String>> {
+	let readme_md = include_str!("../../../README.md");
 
-	let mut parser_options = Options::empty();
-	parser_options.insert(Options::ENABLE_FOOTNOTES);
-	parser_options.insert(Options::ENABLE_GFM);
-	parser_options.insert(Options::ENABLE_STRIKETHROUGH);
-	parser_options.insert(Options::ENABLE_TABLES);
-
-	let parser = Parser::new_ext(&readme_md, parser_options);
+	let parser = Parser::new_ext(readme_md, Options::all());
 
 	let mut readme_html = String::new();
 	pulldown_cmark::html::push_html(&mut readme_html, parser);
-
-	println!("{readme_html}");
 
 	Ok(Html(
 		WikiTemplate { wiki: readme_html }

@@ -1,6 +1,5 @@
 use axum::Router;
 use dotenv::dotenv;
-use reqwest::Client;
 use sqlx::{sqlite::SqlitePoolOptions, SqlitePool};
 use tower_http::trace::TraceLayer;
 use tracing_subscriber::{layer::SubscriberExt, util::SubscriberInitExt};
@@ -9,13 +8,12 @@ use std::time::Duration;
 
 #[derive(Clone)]
 pub struct State {
-	reqwest_client: Client,
 	sqlite_pool: SqlitePool,
 }
 
 impl State {
-	pub fn new(client: Client, pool: SqlitePool) -> Self {
-		Self { reqwest_client: client, sqlite_pool: pool }
+	pub fn new(pool: SqlitePool) -> Self {
+		Self { sqlite_pool: pool }
 	}
 }
 
@@ -25,11 +23,7 @@ impl dictionary::AppState for State {
 	}
 }
 
-impl ing::AppState for State {
-	fn client(&self) -> &Client {
-		&self.reqwest_client
-	}
-}
+impl ing::AppState for State {}
 
 #[tokio::main]
 async fn main() -> std::io::Result<()> {
@@ -45,7 +39,6 @@ async fn main() -> std::io::Result<()> {
 	let db_connection_str = std::env::var("DATABASE_URL").unwrap_or("inglix.db".to_string());
 
 	let state = State::new(
-		Client::new(),
 		SqlitePoolOptions::default()
 			.acquire_timeout(Duration::from_secs(3))
 			.connect(&db_connection_str)

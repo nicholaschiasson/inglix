@@ -8,7 +8,6 @@ edition = "2021"
 [dependencies]
 askama = "0.12.1"
 axum = "0.7.5"
-reqwest = "0.12.8"
 pulldown-cmark = "0.12.1"
 tower-http = { version = "0.5.2", features = ["fs"] }
 

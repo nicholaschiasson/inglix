@@ -22,6 +22,7 @@
         ];
         shellHook = ''
           source .env
+          rustup default 1.82.0
           rustup component add rust-analyzer clippy
           eval "$(starship init bash)"
         '';

@@ -13,6 +13,43 @@
   <link rel="icon" href="/favicon.svg">
   <script src="/scripts/vendored/htmx.min.js"></script>
   <link href="style.css" rel="stylesheet" />
+  <style>
+    main {
+      margin: auto;
+      max-width: 30cm;
+    }
+
+    section#wiki {
+      background-color: #FFFFFF40;
+      border-radius: 2em;
+      margin: 1em;
+      padding: 2em;
+    }
+
+    table,
+    th,
+    td {
+      border: 1px solid;
+    }
+
+    th,
+    td {
+      padding-inline: 0.5em;
+    }
+
+    .footnote-definition {
+      color: gray;
+      margin-block-start: 1em;
+    }
+
+    .footnote-definition-label::after {
+      content: ": ";
+    }
+
+    .footnote-definition p {
+      display: inline;
+    }
+  </style>
 </head>
 
 <body>
@@ -24,7 +61,9 @@
     </nav>
   </header>
   <main>
-    {{ wiki }}
+    <section id="wiki">
+      {{ wiki }}
+    </section>
   </main>
   <footer></footer>
 </body>

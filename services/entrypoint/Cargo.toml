@@ -10,7 +10,6 @@ axum = "0.7.5"
 dictionary = { path = "../dictionary" }
 dotenv = "0.15.0"
 ing = { path = "../../apps/ing" }
-reqwest = "0.12.8"
 sqlx = { version = "0.7.4", features = ["sqlite", "uuid", "runtime-tokio"] }
 tokio = { version = "1.36.0", features = ["full"] }
 tower-http = { version = "0.5.2", features = ["trace", "fs"] }
