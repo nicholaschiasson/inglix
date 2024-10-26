@@ -24,7 +24,7 @@ sanity_clean *ARGS:
 	hurl --very-verbose clean.hurl {{ARGS}} || true
 
 serve *ARGS:
-	cargo watch -x"run --package entrypoint" {{ARGS}}
+	cargo watch -i report -x"run --package entrypoint" {{ARGS}}
 
 test *ARGS:
 	cargo test {{ARGS}}
