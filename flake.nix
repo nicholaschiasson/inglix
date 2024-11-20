@@ -62,7 +62,7 @@
           }).buildRustPackage
             {
               pname = manifest.default-run;
-              version = "0.0.0";
+              version = self.shortRev or self.dirtyShortRev;
               src = ./.;
               cargoLock.lockFile = ./Cargo.lock;
             };
