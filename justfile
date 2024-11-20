@@ -9,6 +9,7 @@ clean *ARGS:
 	cargo clean {{ARGS}}
 
 format *ARGS:
+	nixfmt $(find . -type f -name "*.nix")
 	cargo fmt {{ARGS}}
 
 lint *ARGS:

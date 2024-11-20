@@ -1,31 +1,57 @@
 {
   inputs = {
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
     flake-utils.url = "github:numtide/flake-utils";
-  };
-
-  outputs = { self, nixpkgs, flake-utils }:
-    flake-utils.lib.eachDefaultSystem (system: let
-      pkgs = nixpkgs.legacyPackages.${system};
-    in {
-      devShells.default = pkgs.mkShell {
-        buildInputs = [
-          pkgs.cargo-watch
-          pkgs.darwin.apple_sdk.frameworks.SystemConfiguration
-          pkgs.hurl
-          pkgs.iconv
-          pkgs.just
-          pkgs.lldb
-          pkgs.nodePackages.typescript-language-server
-          pkgs.nodePackages.vscode-langservers-extracted
-          pkgs.rustup
-          pkgs.starship
-        ];
-        shellHook = ''
-          source .env
-          rustup default 1.82.0
-          rustup component add rust-analyzer clippy
-          eval "$(starship init bash)"
-        '';
+    rust-overlay = {
+      url = "github:oxalica/rust-overlay";
+      inputs = {
+        nixpkgs.follows = "nixpkgs";
       };
-    });
+    };
+  };
+  outputs =
+    {
+      self,
+      nixpkgs,
+      flake-utils,
+      rust-overlay,
+    }:
+    flake-utils.lib.eachDefaultSystem (
+      system:
+      let
+        overlays = [ (import rust-overlay) ];
+        pkgs = import nixpkgs {
+          inherit system overlays;
+        };
+        rustToolchain = pkgs.pkgsBuildHost.rust-bin.fromRustupToolchainFile ./rust-toolchain.toml;
+        nativeBuildInputs = with pkgs; [
+          pkg-config
+          rustToolchain
+        ];
+        buildInputs = with pkgs; [
+          cargo-watch
+          hurl
+          iconv
+          just
+          lldb
+          nil
+          nixfmt-rfc-style
+          nodePackages.typescript-language-server
+          nodePackages.vscode-langservers-extracted
+          rust-analyzer
+          starship
+        ];
+      in
+      with pkgs;
+      {
+        devShells.default = mkShell {
+          inherit buildInputs nativeBuildInputs;
+          shellHook = ''
+            source .env
+            rustc --version
+            eval "$(starship init bash)"
+          '';
+        };
+      }
+    );
 }
