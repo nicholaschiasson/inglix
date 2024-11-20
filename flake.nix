@@ -52,6 +52,17 @@
             eval "$(starship init bash)"
           '';
         };
+        packages.default =
+          (pkgs.makeRustPlatform {
+            rustc = rustToolchain;
+            cargo = rustToolchain;
+          }).buildRustPackage
+            {
+              pname = "inglix";
+              version = "0.0.0";
+              src = ./.;
+              cargoLock.lockFile = ./Cargo.lock;
+            };
       }
     );
 }
