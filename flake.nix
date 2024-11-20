@@ -53,12 +53,15 @@
           '';
         };
         packages.default =
+          let
+            manifest = (pkgs.lib.importTOML ./services/entrypoint/Cargo.toml).package;
+          in
           (pkgs.makeRustPlatform {
             rustc = rustToolchain;
             cargo = rustToolchain;
           }).buildRustPackage
             {
-              pname = "inglix";
+              pname = manifest.default-run;
               version = "0.0.0";
               src = ./.;
               cargoLock.lockFile = ./Cargo.lock;
