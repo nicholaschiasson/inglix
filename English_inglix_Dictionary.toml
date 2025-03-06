@@ -1,0 +1,13 @@
+[English-inglix]
+aardvarks = "ardvarks"
+a = "H"
+aah = "a"
+ab = "ab"
+aardvark = "ardvark"
+
+[inglix-English]
+ardvark = "aardvark"
+ab = "ab"
+H = "a"
+a = "aah"
+ardvarks = "aardvarks"

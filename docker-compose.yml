@@ -1,0 +1,9 @@
+services:
+  inglix:
+    build:
+      context: .
+    volumes:
+      - type: bind
+        source: inglix.db
+        target: /inglix.db
+        # target: /inglix.db
