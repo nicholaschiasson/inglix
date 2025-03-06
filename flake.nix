@@ -30,6 +30,8 @@
         ];
         buildInputs = with pkgs; [
           cargo-watch
+          docker-compose-language-service
+          dockerfile-language-server-nodejs
           hurl
           iconv
           just
@@ -40,6 +42,7 @@
           nodePackages.vscode-langservers-extracted
           rust-analyzer
           starship
+          yaml-language-server
         ];
       in
       with pkgs;
