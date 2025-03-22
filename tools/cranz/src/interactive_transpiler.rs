@@ -1,10 +1,8 @@
 use std::io;
 
-use crate::{
-	dictionary::Dictionary,
-	transpile::Transpile,
-	word::{Word, WordError},
-};
+use inglix::{word::WordError, Word};
+
+use crate::{dictionary::Dictionary, transpile::Transpile};
 
 pub struct InteractiveTranspiler {
 	dictionary: Box<dyn Dictionary>,

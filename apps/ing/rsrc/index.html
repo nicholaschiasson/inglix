@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="The english to inglix dictionary" />
+  <meta name="keywords" content="english,inglix,dictionary,translate" />
+  <meta name="author"
+    content="Nicholas Omer Chiasson &lt;nicholasomerchiasson@gmail.com&gt; (https://nicholaschiasson.github.io)" />
+  <title>inglix</title>
+  <link rel="icon" href="/favicon.svg">
+  <script src="/scripts/vendored/htmx.min.js"></script>
+  <link href="style.css" rel="stylesheet" />
+  <style>
+    main {
+      font-size: larger;
+      margin-top: 25vh;
+      text-align: center;
+      transition-duration: 0.5s;
+      transition-timing-function: ease-in-out;
+    }
+
+    :root:has(#search-results:empty) main {
+      margin-top: 50vh;
+    }
+
+    .lang-label {
+      display: inline-block;
+      font-weight: bolder;
+      text-align: center;
+    }
+
+    #from-english-label {
+      color: #a17993;
+      opacity: 1;
+      transform: translateX(50%);
+      transition-duration: 0.5s;
+    }
+
+    :root:has(#search-from:checked) #from-english-label {
+      opacity: 0;
+      transform: translateX(-75%);
+    }
+
+    #from-inglix-label {
+      color: #e6add2;
+      opacity: 0;
+      transform: translateX(75%);
+      transition-duration: 0.5s;
+    }
+
+    :root:has(#search-from:checked) #from-inglix-label {
+      opacity: 1;
+      transform: translateX(-50%);
+    }
+
+    #search-from:after {
+      background-color: gray;
+      border-radius: 100%;
+      height: 1em;
+      width: 2em;
+    }
+
+    #search-value {
+      border-radius: 0.5em;
+      border-style: solid;
+      font-size: larger;
+    }
+
+    #search-value:focus {
+      box-shadow: 0 0 0.5em royalblue;
+    }
+
+    #search-results {
+      padding: 0;
+    }
+
+    .word {
+      align-items: baseline;
+      background-color: #fff7;
+      border: 1px solid darkgray;
+      border-radius: 0.5em;
+      display: flex;
+      justify-content: space-between;
+      margin: 1em;
+      padding: 1em;
+    }
+
+    .word span {
+      animation: fadein 0.5 ease-in-out 0 1 normal forwards;
+      animation-fill-mode: forwards;
+    }
+
+    .word .english-spelling {
+      color: #a17993;
+      font-size: xx-large;
+      font-weight: bolder;
+      order: 0;
+    }
+
+    .word .inglix-spelling {
+      color: #e6add2;
+      font-size: large;
+      font-weight: bolder;
+      order: 1;
+    }
+
+    :root:has(#search-from:checked) .word .english-spelling {
+      font-size: large;
+      font-weight: bolder;
+      order: 1;
+    }
+
+    :root:has(#search-from:checked) .word .inglix-spelling {
+      font-size: xx-large;
+      font-weight: bolder;
+      order: 0;
+    }
+
+    #search-results {
+      transition-duration: 0.5s;
+    }
+
+    #search-results.htmx-added,
+    #search-results.htmx-swapping {
+      opacity: 0;
+      transform: translateY(1em);
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a href="#"><img src="/favicon.svg" /></a>
+      <a href="/wiki">wiki</a>
+      <a href="https://github.com/nicholaschiasson/inglix" target="_blank">&#xf09b;</a>
+    </nav>
+  </header>
+  <main>
+    <div id="search-form"
+      hx-include=":root:has(#search-from:not(:checked)) #from-english, :root:has(#search-from:checked) #from-inglix,  [name='search']">
+      <input type="hidden" id="from-english" name="from" value="english">
+      <input type="hidden" id="from-inglix" name="from" value="inglix">
+      <label id="from-english-label" class="lang-label" for="search-from">eng</label><!--
+        Forbid line break, prevent whitespace.
+      --><label id="from-inglix-label" class="lang-label" for="search-from">ing</label>
+      <input type="checkbox" id="search-from" name="from">
+      <input type="search" id="search-value" name="search" placeholder="Search for a word..." autofocus
+        hx-get="/api/public/v1/words" hx-swap="innerHTML settle:0.5s swap:0.5s" hx-target="#search-results"
+        hx-trigger="input changed delay:500ms, search, click from:#search-from">
+    </div>
+    <ul id="search-results"></ul>
+  </main>
+  <footer></footer>
+  <script>
+    const searchValue = document.getElementById('search-value');
+    searchValue.addEventListener('htmx:beforeRequest', e => {
+      if (e.srcElement.value.length < 1) {
+        e.preventDefault();
+      }
+    });
+  </script>
+</body>
+
+</html>

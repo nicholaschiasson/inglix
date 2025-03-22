@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="The english to inglix dictionary" />
+  <meta name="keywords" content="english,inglix,dictionary,translate" />
+  <meta name="author"
+    content="Nicholas Omer Chiasson &lt;nicholasomerchiasson@gmail.com&gt; (https://nicholaschiasson.github.io)" />
+  <title>wiki · inglix</title>
+  <link rel="icon" href="/favicon.svg">
+  <script src="/scripts/vendored/htmx.min.js"></script>
+  <link href="style.css" rel="stylesheet" />
+  <style>
+    main {
+      margin: auto;
+      max-width: 30cm;
+    }
+
+    section#wiki {
+      background-color: #FFFFFF40;
+      border-radius: 2em;
+      margin: 1em;
+      padding: 2em;
+    }
+
+    table,
+    th,
+    td {
+      border: 1px solid;
+    }
+
+    th,
+    td {
+      padding-inline: 0.5em;
+    }
+
+    .footnote-definition {
+      color: gray;
+      margin-block-start: 1em;
+    }
+
+    .footnote-definition-label::after {
+      content: ": ";
+    }
+
+    .footnote-definition p {
+      display: inline;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a href="/"><img src="/favicon.svg" /></a>
+      <a href="#">wiki</a>
+      <a href="https://github.com/nicholaschiasson/inglix" target="_blank">&#xf09b;</a>
+    </nav>
+  </header>
+  <main>
+    <section id="wiki">
+      {{ wiki }}
+    </section>
+  </main>
+  <footer></footer>
+</body>
+
+</html>

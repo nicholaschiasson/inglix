@@ -4,9 +4,10 @@ use std::{
 	path::PathBuf,
 };
 
+use inglix::Word;
 use serde::{Deserialize, Serialize};
 
-use crate::{dictionary::Dictionary, serializer::Serializer, word::Word};
+use crate::{dictionary::Dictionary, serializer::Serializer};
 
 #[derive(Serialize, Deserialize)]
 #[allow(non_snake_case)]
@@ -34,7 +35,7 @@ impl LocalDictionary {
 		if !file.exists() {
 			fs::create_dir_all(file.parent().expect("Get dictionary directory name"))
 				.expect("Create dictionary directory");
-			fs::write(&file, serializer.empty_file()).expect("Create dictionary file");
+			fs::write(file, serializer.empty_file()).expect("Create dictionary file");
 		}
 		Self {
 			file: file.into(),

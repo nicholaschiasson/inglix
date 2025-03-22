@@ -18,9 +18,9 @@ Now imagine writing an essay and believing that you have a vast vocabulary among
 
 I could keep going though. What about other words like "gauge"? Why is it spelled that way? What part does that "u" actually play? I hear this word quite often actually at work and just about every non-native speaker pronounces it more like "gowge". This is intuition. I agree it should be pronounced that way given its spelling. But it's not. I don't usually correct people on this because I don't want to be annoying about something that doesn't matter that much. But English, you're putting me in a tough spot here!
 
-What about all of these "O-U-G-H" sounds that are all _over_ the place? I mean seriously: "rough", "though", "through", "cough", "drought"! Enough is enough (:wink:)! That's five different pronunciations for the same four letter combination! This is only the tip of the iceberg though. English is riddled with weird spellings. The ones I've mentioned so far have been quite tame if I'm being honest.
+What about all of these "O-U-G-H" sounds that are all _over_ the place? I mean seriously: "rough", "though", "through", "cough", "drought"! Enough is enough (😉)! That's five different pronunciations for the same four letter combination! This is only the tip of the iceberg though. English is riddled with weird spellings. The ones I've mentioned so far have been quite tame if I'm being honest.
 
-Oh and maybe just as the cherry on top for that rant, even my own name, "Nicholas", is spelled ambiguously. I work with a lot of French speakers. The name also exists commonly among the French population, obviously, but they don't usually spell it with that "h" in there, so it's more often "Nicolas". And that's how people spell my name in DMs even though they can see my name written out right in front of them already _IN THE SOFTWARE_. If I'm being honest though, I don't usually go by "Nicholas". I usually go by "Nick"... :neutral_face: "_Nick_"... "***NICK***"?! A "k"?! You're going to change the "h" to a "k" for the nickname?! So now, when people write to me, the French speakers spell my name "Nic", the English speakers spell my name "Nick", and the rest of the understandably confused population spells my name "Nich"! My own name is a mess! Of course, I'm exaggerating my frustration here. I don't really care at all. In fact, it's actually just kind of funny to me.
+Oh and maybe just as the cherry on top for that rant, even my own name, "Nicholas", is spelled ambiguously. I work with a lot of French speakers. The name also exists commonly among the French population, obviously, but they don't usually spell it with that "h" in there, so it's more often "Nicolas". And that's how people spell my name in DMs even though they can see my name written out right in front of them already _IN THE SOFTWARE_. If I'm being honest though, I don't usually go by "Nicholas". I usually go by "Nick"... 😐 "_Nick_"... "***NICK***"?! A "k"?! You're going to change the "h" to a "k" for the nickname?! So now, when people write to me, the French speakers spell my name "Nic", the English speakers spell my name "Nick", and the rest of the understandably confused population spells my name "Nich"! My own name is a mess! Of course, I'm exaggerating my frustration here. I don't really care at all. In fact, it's actually just kind of funny to me.
 
 Of course, I understand that the origin story of the modern written English language is hairy and complex, and I understand that things will never really change. We need our systems to allow us to preserve our history. We need to keep as much information as accessible as possible. What that means is that we're stuck with the broken system, and probably for a long, long time. I have no real problem with that. It's maybe difficult to learn English, but in the end it is trivial. My complaints are real, but exaggerated.
 
@@ -30,13 +30,13 @@ The goal is simple: repurpose the letters in the English alphabet to make more s
 
 Of course it goes without saying that this will be quite opinionated. The dictionary will be entirely based on my own accent (Standard Canadian). It's entirely possible though that the system may be easily transposable to other accents. Hey, it might even just work right out of the box for Brits and I wouldn't know it. I guess time will tell.
 
-So if you read through the first sentence of this preamble and thought to yourself, "Hmmm... what is this word, 'W-R-O-U-G-H-T'...? OHH... 'ROT'! I see. Didn't know that's how you spelled that word. :thinking:", or even if you read through this sentence accidentally pronouncing the word "read" as "reed" on your first pass instead of "red", then buckle up because this project is _MADE FOR YOU_! We're about to fix English and there is no turning back!
+So if you read through the first sentence of this preamble and thought to yourself, "Hmmm... what is this word, 'W-R-O-U-G-H-T'...? OHH... 'ROT'! I see. Didn't know that's how you spelled that word. 🤔", or even if you read through this sentence accidentally pronouncing the word "read" as "reed" on your first pass instead of "red", then buckle up because this project is _MADE FOR YOU_! We're about to fix English and there is no turning back!
 
 </details>
 
 ## Alphabet
 
-### :no_good: English
+### 🙅 English
 
 26 letters. 2 Versions of each...
 
@@ -45,7 +45,7 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 a b c d e f g h i j k l m n o p q r s t u v w x y z
 ```
 
-### :ok_person: inglix
+### 🙆 inglix
 
 Only 32 letters total, carefully selected to represent all of the relevant sounds of English!
 
@@ -54,7 +54,7 @@ Only 32 letters total, carefully selected to represent all of the relevant sound
 a b c d e f g h i j k l m n o p   r s t u v w x y z
 ```
 
-In inglix, the concept of uppercase and lowercase letters being alternate versions of one another is completely abolished. Instead, each letter is unique in the sound it is associated with. For example "t" and "T" do not make the same sound. We no longer use the notion of lowercase "t" and uppercase "T". In inglix, they are each their own letter. Hmph, good for them, right? How empowering. :smiling_face_with_tear:
+In inglix, the concept of uppercase and lowercase letters being alternate versions of one another is completely abolished. Instead, each letter is unique in the sound it is associated with. For example "t" and "T" do not make the same sound. We no longer use the notion of lowercase "t" and uppercase "T". In inglix, they are each their own letter. Hmph, good for them, right? How empowering. 🥲
 
 Given this notion of identity, it follows that some letters in the inglix alphabet will need to be granted new names so we don't have to refer to them as "uppercase this" and "lowercase that". Of course, this is just a convenience. Since it's one more thing to remember, feel free to do as you please and call the letters whatever you want.
 
@@ -98,8 +98,6 @@ If you wish to address the letters by their inglix names, then you may refer to 
 | 30 | `x` | <nglx>`eks`</nglx> | **=** |
 | 31 | `y` | <nglx>`waE`</nglx> | **=** |
 | 32 | `z` | <nglx>`zE`</nglx> | **=** |
-
-[^1]: Like the name of the letter "G", but voiced. Really soften that "G" sound. It's the same way the French pronounce the name of their own letter "J".
 
 </details>
 
@@ -148,10 +146,6 @@ See the [exceptions] section for a comprehensive explanation of each case which 
 | ʊ | `oo`, `u`, `o`, `ou` | <nglx>`u`</nglx> | `book`, `put`, `wolf`, `would` | <nglx>`buk`</nglx>, <nglx>`put`</nglx>, <nglx>`wulf`</nglx>, <nglx>`wud`</nglx> |
 | ʌ | `u` | <nglx>`H`</nglx> | `rub` | `rHb` |
 
-[^2]: Some phonetic symbols represent sounds that are very similar. In such cases we will simply list them all together.
-
-[^3]: Wondering why you pronounce these three words differently even though they are supposedly the same sound? See the section about the [short "a" vowel sound exception] for details about that. In summary, let your accent shine. Consider this your final taste of freedom of expression before inglix takes it all away...
-
 ##### Long Vowels
 
 It is commonly considered that there are 5 long vowels but the "ay" as well as the "ie"/"igh" sounds are very clearly compositions of two different vowels. As such, those are omitted from the list of [pure] phonemes and instead listed as [composite] phonemes further below.
@@ -161,8 +155,6 @@ It is commonly considered that there are 5 long vowels but the "ay" as well as t
 | i | `ee`, `ea` | <nglx>`E`</nglx> | `bee`, `beat` | <nglx>`bE`</nglx>, <nglx>`bEt`</nglx> |
 | ou, oʊ | `oe`, `ow` | <nglx>`O`</nglx>[^4] | `toe`, `flow` | <nglx>`tO`</nglx>, <nglx>`flO`</nglx> |
 | u | `oo`, `ue` | <nglx>`U`</nglx> | `moon`, `cue` | <nglx>`mUn`</nglx>, <nglx>`kyU`</nglx> |
-
-[^4]: This is actually a composite phoneme in disguise. To understand why it is listed here, see the section about the [long "o" vowel sound exception].
 
 ##### R-Controlled Vowels
 
@@ -200,19 +192,13 @@ For the sake of structure, these vowel-plus-"r" combinations will be appropriate
 | j | `y` | <nglx>`y`</nglx>[^7] | `yak`, `vineyard` | <nglx>`yak`</nglx>, <nglx>`vinyurd`</nglx> |
 | z | `z` | <nglx>`z`</nglx> | `zoo` | <nglx>`zU`</nglx> |
 
-[^5]: This may seem to be a bizarre choice of grapheme for the unvoiced "th" sound. The fact is that it was chosen simply because a stereotypical "s" lisp tends to make this sound also. So why not use "<nglx>S</nglx>" to represent it (different casing since the "s" sound is already taken by "<nglx>s</nglx>")? It's almost too perfect!
-
-[^6]: The "<nglx>w</nglx>" is a special case to be included in inglix. Read more about the reason for including it and its proper usage in the section below dedicated to [the "w" consonant].
-
-[^7]: The "<nglx>y</nglx>" is special for similar reasons to "<nglx>w</nglx>". See the section about [the "y" consonant] for a brief explanation.
-
 ##### The "w" consonant
 
 There is a case to be made against "<nglx>w</nglx>" being included in inglix. Instead, it could have probably simply been replaced by the inglix "<nglx>U</nglx>". This would be similar to how the French language uses "ou" in place of the "w" sound (for native French words).
 
 In spite of that, "<nglx>w</nglx>" is somewhat elegant, instantly recognizable, and intuitive in its own right. Using a "<nglx>U</nglx>" in its place might confuse readers into emphasizing the long "u" vowel sound, making some words sound awkward.
 
-Furthermore, the use of a "<nglx>w</nglx>" removes ambiguity in cases where the "w" follows a consonant sound in the middle of a word. Et acts almost as a pause. Take, for example, the name "Oswald". In inglix, we would spell this "<nglx>ozwoLd</nglx>" to accomplish the same intended pronunciation. If we were to spell it "<nglx>ozUold</nglx>", most would likely read this with the "z" sound leading into the long "u" vowel sound, making it sound like "ozu wald" or maybe even more poorly partitioned, like "ozu ald".
+Furthermore, the use of a "<nglx>w</nglx>" removes ambiguity in cases where the "w" follows a consonant sound in the middle of a word. It acts almost as a pause. Take, for example, the name "Oswald". In inglix, we would spell this "<nglx>ozwoLd</nglx>" to accomplish the same intended pronunciation. If we were to spell it "<nglx>ozUold</nglx>", most would likely read this with the "z" sound leading into the long "u" vowel sound, making it sound like "ozu wald" or maybe even more poorly partitioned, like "ozu ald".
 
 As such, "<nglx>w</nglx>" can for now.
 
@@ -246,14 +232,6 @@ These are primarily for example purposes. Some of the composites listed below ar
 | ks | `x` | <nglx>`ks`</nglx> | `box` | <nglx>`boks`</nglx> |
 | kw | `qu` | <nglx>`kw`</nglx> | `quit` | <nglx>`kwit`</nglx> |
 | aɪ ɪŋ | `ying` | <nglx>`aEing`</nglx> | `trying` | <nglx>`craEing`</nglx> |
-
-[^8]: Words with this composite phoneme are represented with a phonetic spelling that does not match the way the majority of English speakers pronounce these words. Most people don't pronounce the vowel sounds in the words "high" and "height" identically, even though their phonetic spellings use the same vowel combination "aɪ". The decision was made in inglix to respect the differences and distinguish them with their own unique spellings.
-
-[^9]: This specific composite phoneme is actually a tricky case and still up for debate for its representation in inglix. See the section on the [r-controlled short "a" vowel exception] to understand the choice here.
-
-[^10]: Yet another exceptional case. While this one might be somewhat less noticeable, it is in fact a misrepresentation of the true sounds you make when vocalizing this sound. See the section on the [r-controlled long "o" vowel exception] for an explanation.
-
-[^11]: If you noticed that the "n" in an "ng" or "nk" sound is not the same tip-of-the-tongue regular "n" sound, then you are indeed a keen one. Otherwise, you may be interested to learn just why this is an exception. See the section about the ["ng" vowel exception] for some explanation.
 
 ### Exceptions
 
@@ -293,7 +271,7 @@ The inglix dictionary will identify homonyms uniquely by duplicating the first l
 
 Take the words "to", "too", and "two", for example.
 
-In inglix, we might write these as "<nglx>tU</nglx>", "<nglx>ttU</nglx>", and "<nglx>tttU</nglx>", respectively. Et will be up to you to remember "<nglx>wic</nglx> <nglx>wwic</nglx> <nglx>iz</nglx> <nglx>wic</nglx>" (which witch is which). However since it is uncommon for there to be more than 3 homonyms for a given sounding word, this approach seems quite clean and elegant being the only case of double letters permissible in all of inglix.
+In inglix, we might write these as "<nglx>tU</nglx>", "<nglx>ttU</nglx>", and "<nglx>tttU</nglx>", respectively. It will be up to you to remember "<nglx>wic</nglx> <nglx>wwic</nglx> <nglx>iz</nglx> <nglx>wic</nglx>" (which witch is which). However since it is uncommon for there to be more than 3 homonyms for a given sounding word, this approach seems quite clean and elegant being the only case of double letters permissible in all of inglix.
 
 ## Plurals
 
@@ -301,7 +279,7 @@ In inglix, we might write these as "<nglx>tU</nglx>", "<nglx>ttU</nglx>", and "<
 
 The question of how to handle plural nouns is a difficult one, as it introduces the dilemma: should we favour grammar rules at the risk of introducing grapheme usage exceptions, ie. spellings which don't exactly match how a word should be pronounced; or should we favour spelling consistency according to pronunciation at the risk of complicating an already elegant grammar rule?
 
-In English, the rule to make something plural is rather simple: add an "s". :clap:
+In English, the rule to make something plural is rather simple: add an "s". 👏
 
 Of course, it's not always that simple. There exist words which need further modification to allow that "s". Word already ends in "s"? Okay, add "es". Word ends in "y"? Okay, change the "y" to "ie" and then add an "s". Then there are special words that don't add an "s" to become plural. Such arbitrary cases consist largely of words who carry their pluralization rule from their origin language. "Cactus", for example, coming from Greek and having a brush-in with Latin before making it into the English language, becomes "cacti" when pluralized. And let's not forgot about the other assortment of seemingly arbitrary cases in the catalog. "Foot" becomes "feet". "Thief" becomes "thieves". "Amoeba" becomes "amoebae". And "sheep" stays the same.
 
@@ -332,7 +310,7 @@ The inglix writing system is made for writing English. Therefore, it works basic
 
 In inglix, you do not capitalize the first letter of a sentence or even those of proper nouns! Every version of a letter, that is to say uppercase and lowercase, is reserved intentionally to express words phonetically. This allows for inglix to be much, much simpler than English, and even strip down the alphabet a good deal.
 
-Perhaps the best way to get started reading and writing inglix is to not think of letters in terms of uppercase and lowercase anymore at all, but rather as a set of unique letters each with a resulting sound (some of which happen to only be accessible via a letter on the keyboard in tandem with the shift key :sweat_smile:).
+Perhaps the best way to get started reading and writing inglix is to not think of letters in terms of uppercase and lowercase anymore at all, but rather as a set of unique letters each with a resulting sound (some of which happen to only be accessible via a letter on the keyboard in tandem with the shift key 😅).
 
 ### Proper Nouns
 
@@ -368,15 +346,39 @@ As an example, one could denote the National Aeronautics and Space Administratio
 
 This is quite awkward and it is not ideal to deviate from how English uses punctuation just for special circumstances, so proposals for better ideas are fully welcome.
 
-## To Do
+---
 
-- Transpiler script
-- Dictionary
-- Alphabet reference
-- Write inglix version of this readme file
-- Consider how to tackle syllabic emphasis/stress
-- Embrace using new symbols/accents? Maybe the plain alphabet can't solve all problems
-- Keyboard layout?
+[^1]: Like the name of the letter "G", but voiced. Really soften that "G" sound. It's the same way the French pronounce the name of their own letter "J".
+
+
+[^2]: Some phonetic symbols represent sounds that are very similar. In such cases we will simply list them all together.
+
+
+[^3]: Wondering why you pronounce these three words differently even though they are supposedly the same sound? See the section about the [short "a" vowel sound exception] for details about that. In summary, let your accent shine. Consider this your final taste of freedom of expression before inglix takes it all away...
+
+
+[^4]: This is actually a composite phoneme in disguise. To understand why it is listed here, see the section about the [long "o" vowel sound exception].
+
+
+[^5]: This may seem to be a bizarre choice of grapheme for the unvoiced "th" sound. The fact is that it was chosen simply because a stereotypical "s" lisp tends to make this sound also. So why not use "<nglx>S</nglx>" to represent it (different casing since the "s" sound is already taken by "<nglx>s</nglx>")? It's almost too perfect!
+
+
+[^6]: The "<nglx>w</nglx>" is a special case to be included in inglix. Read more about the reason for including it and its proper usage in the section below dedicated to [the "w" consonant].
+
+
+[^7]: The "<nglx>y</nglx>" is special for similar reasons to "<nglx>w</nglx>". See the section about [the "y" consonant] for a brief explanation.
+
+
+[^8]: Words with this composite phoneme are represented with a phonetic spelling that does not match the way the majority of English speakers pronounce these words. Most people don't pronounce the vowel sounds in the words "high" and "height" identically, even though their phonetic spellings use the same vowel combination "aɪ". The decision was made in inglix to respect the differences and distinguish them with their own unique spellings.
+
+
+[^9]: This specific composite phoneme is actually a tricky case and still up for debate for its representation in inglix. See the section on the [r-controlled short "a" vowel exception] to understand the choice here.
+
+
+[^10]: Yet another exceptional case. While this one might be somewhat less noticeable, it is in fact a misrepresentation of the true sounds you make when vocalizing this sound. See the section on the [r-controlled long "o" vowel exception] for an explanation.
+
+
+[^11]: If you noticed that the "n" in an "ng" or "nk" sound is not the same tip-of-the-tongue regular "n" sound, then you are indeed a keen one. Otherwise, you may be interested to learn just why this is an exception. See the section about the ["ng" vowel exception] for some explanation.
 
 [composite]: #composite-graphemes
 [composite graphemes]: #composite-graphemes
